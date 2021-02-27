@@ -154,13 +154,27 @@ You can find more information on cloning a repository from GitHub [here](https:/
 
 ## Credits
 ---
+### Website Credits
 
-### Content
+#### Content
 - The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
 
-### Media
+#### Media
 - The photos used in this site were obtained from ...
 
-### Acknowledgements
+#### Acknowledgements
+* This project was created using the following resources:
+  * [Code Institute Full Template](https://github.com/Code-Institute-Org/gitpod-full-template).
 
-- I received inspiration for this project from X
+### README Credits
+
+#### Content
+* Structure and content based heavily on:
+  * [Code Institute Solutions - README Template](https://github.com/Code-Institute-Solutions/readme-template)
+  * [Anna Greaves - Portrait Artist README](https://github.com/AJGreaves/portrait-artist/blob/master/README.md)
+
+#### Media
+* The images for this README are from the following sources:
+  * Snips taken from GitHub.
+  * [Am I Responsive](http://ami.responsivedesign.is/).
+  * Wireframes created with [Balsamiq](https://balsamiq.com/).
