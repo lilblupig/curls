@@ -26,6 +26,43 @@ The project code has been passed through the following code validators:
 
 ## Manual Testing
 
+------------------------------TO DO----------------------------------- <br>
+Home Page:
+Navigation bar:
+
+Go to the "Home" page from a desktop.
+Change the screen size from desktop to tablet to verify that the navigation bar is responsive and switches from in line menu to burger icon dropdown menu at the appropriate place.
+When checking responsiveness of navbar, verify that there is no overflow causing ugly size changes to menu items. During testing there were overflow problems here. This was fixed by reducing size of the button and logo margins
+Hover over the logo in the navigation bar and verify that the alt text appears. During testing this did not happen, so I added a title attribute to the logo to fix
+Click on the logo in the navigation bar and verify that it links to the home page.
+Click on each navigation menu item and verify that it links to the correct page.
+Hover over the "request quote" button and verify the hover colour change works as expected.
+Click on the "request quote" button and verify that it links to the contact page.
+Change screen size to small and click burger icon, verify that the menu drops down and that the menu text is centred.
+Repeat verification of functionality and responsiveness on my mobile phone and tablet.
+Hero image / video:
+
+Go to "Home" page from a desktop.
+Confirm video is visible, autoplays on mute and is 100% width of the screen.
+Reduce the width of the window to confirm that the video switches to static image in mobile.
+Reduce and expand width of window to confirm that the overlay on top of image / video responds correctly and does not obscure important features.
+Compelling copy section:
+
+Reduce and expand width of window to confirm that the text in this section responds correctly and looks good on all device widths.
+Testimonials:
+
+Reduce and expand width of window to confirm that 3 testimonials display on medium to large screens, but one is hidden on mobile devices.
+Call to action button:
+
+Hover over call to action button and verify the hover colour change.
+Click the call to action button and verify that it links to the correct page.
+Footer:
+
+Hover over each social media icon and confirm colour and size transitions expected.
+Click on each icon to confirm it opens a separate tab for it's link.
+Reduce and expand width of window to verify that the footer is responsive and looks good on all device widths.
+Review all functionality and responsiveness on my mobile phone and tablet.
+
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
 Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.

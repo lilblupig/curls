@@ -172,6 +172,7 @@ You can find more information on cloning a repository from GitHub [here](https:/
 * Structure and content based heavily on:
   * [Code Institute Solutions - README Template](https://github.com/Code-Institute-Solutions/readme-template)
   * [Anna Greaves - Portrait Artist README](https://github.com/AJGreaves/portrait-artist/blob/master/README.md)
+  * [Anna Greaves - Portrait Artist TESTING](https://github.com/AJGreaves/portrait-artist/blob/master/TESTING.md)
 
 #### Media
 * The images for this README are from the following sources:
