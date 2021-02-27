@@ -178,3 +178,4 @@ You can find more information on cloning a repository from GitHub [here](https:/
   * Snips taken from GitHub.
   * [Am I Responsive](http://ami.responsivedesign.is/).
   * Wireframes created with [Balsamiq](https://balsamiq.com/).
+  * [Markdown Cheat Sheet]()
