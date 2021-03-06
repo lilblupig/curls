@@ -105,6 +105,8 @@ In line with structure planning, a clear and concise homepage designed in line w
 
 Each page broken down into small sections for easy digest of information.
 
+Very basic 404 redirect page with a link to home to prevent stuck users.
+
 #### Wireframes
 1. [Mobile](assets/documents/curls-mobile.pdf) 375px
 2. [Tablet](assets/documents/curls-tablet.pdf) 768px
