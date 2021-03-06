@@ -1,34 +1,44 @@
-# Curls
+# **Curls**
 
-## Overview
+## **Overview**
 ---
 
 An easily accessible basic resource for people looking for information about haircare methods specific to curly hair. Changes in fashion and greater acceptance of individuality mean more people are able to wear naturally curly hair in a professional environment as well as in other situations in which it would have been considered inappropriate.
 
 Decades of straightening, blow-drying and otherwise taming or conatining curls have meant that information about curly haircare is thin on the ground, and what there is is very spread out.  This website aims to pull together all of the basic information a curly converter might need to get started, and then provide them with links for further reading should they need or want it.
 
-Owner aims:
-* Increase awareness of curly haircare
-* Provide basic information on such
-* Grow the curly haircare community
-
-User aims:
-* Increase knowledge
-* Easily progress through basic details to more in depth information as understanding improves
-* Identify hair type and porosity
-* Learn where to find information specific to indentified hair type
-
 -----------------**Am I responsive image here**------------------
+
+# Index
+1. [UX](#ux)
+    * [User Stories](#user-stories)
+    * [Strategy](#strategy)
+    * [Scope](#scope)
+    * [Structure](#structure)
+    * [Skeleton](#skeleton)
+    * [Surface](#surface)
+2. [Features](#features)
+    * [Existing Features](#existing-features)
+      * [Home](#home)
+      * [Science](#science)
+      * [Types](#types)
+      * [Actions](#actions)
+      * [More Info](#more-info)
+      * [Contact](#contact)
+    * [Features for Future Implementation](#features-for-future-implementation)
+3. [Testing](#testing)
+4. [Technologies Used](#technologies-used)
+5. [Deployment](#deployment)
+    * [Via GitPod](#deployment-of-the-page)
+    * [Cloning Locally](#how-to-run-the-code-locally)
+6. [Credits](#credits)
+    * [Website](#website-credits)
+    * [README](#readme-credits)
 
 ## UX
 ---
 
-### Who, What and How
-This website is for individuals looking for information to help them decide whether curly haircare is for them, and if it is, identify the characteristics of their hair and what their first steps might be.
-
-The Curls website satisfies these objectives by first presenting a summary of the information contained within the various sections of the website, before expanding on each summary with clear progression to a dedicated page. As the user works through the pages they will gain an understanding of their hair and how it is affected by products and practices before arriving at links to further learning.
-
-### User Stories
+### **User Stories**
 1. As a new user, I want to quickly determine if the website contains information I need, so that I know quickly whether to stay on the page.
 2. As a new user, I want to easily determine and navigate to a point on the website which is appropriate for my existing knowledge, so that I do not waste time.
 3. As a new user, I want to learn about basic techniques that I can use right away, so that I can start putting research into action.
@@ -36,15 +46,91 @@ The Curls website satisfies these objectives by first presenting a summary of th
 5. As a returning user, I want to be able to easily contact the site owners with questions, so that I can obtain tailored information or troubleshoot issues.
 6. As a frequent user, I want to be able to navigate quickly and easily to the relevant part of the website which contains the information I need, so that I can quickly fulfil the reason for my visit.
 
-### Wireframes
-1. [Mobile](assets/documents/curls-mobile.pdf)
-2. [Tablet](assets/documents/curls-tablet.pdf)
-3. [PC/Laptop](assets/documents/curls-pc.pdf)
+### **Strategy**
+This website is for individuals looking for information to help them decide whether curly haircare is for them, and if it is, identify the characteristics of their hair and what their first steps might be.
+
+The Curls website satisfies these objectives by first presenting a summary of the information contained within the various sections of the website, before expanding on each summary with clear progression to a dedicated page. As the user works through the pages they will gain an understanding of their hair and how it is affected by products and practices before arriving at links to further learning.
+
+Owner aims:
+* Inspired/informed user
+* Increase awareness of curly haircare
+* Provide basic information on such
+* Grow the curly haircare community
+* Potential for commissions or sponsored links in the future
+
+User aims:
+* Get better curls
+* Increase knowledge
+* Easily progress through basic details to more in depth information as understanding improves
+* Identify hair type and porosity
+* Learn where to find information specific to indentified hair type
+
+### **Scope**
+The project is born of my own experience trying to find information on how to get defined, glossy curls.  There was lots and lots of information but all scattered about, and nothing aimed directly at a beginner.
+
+The scope of the project therefore is to provide condensed, basic information which can give the user the tools they need to get started.
+
+#### Feature Viability
+
+#|Feature | Importance | Viability | Comment 
+---|------------ | -------------|--------------|-----------|
+1.| Identify curl type  | 5 | 5 | Y - Important for care routine
+2.| Identify porosity | 5 | 5 | Y - Important for care routine
+3.| Identify hair type | 2 | 4 | N - Advanced concept, research needed
+4.| Table porosity/curl type do's and dont's | 4 | 2 | N - Too big to easily make responsive
+5.| Hair type needs and routines | 5 | 3 | N - Bulky text heavy sections
+6.| Links to further reading | 3 | 5 | Y - Assist with research beyond current scope of website
+7.| Indicative starter products by type/porosity | 4 | 1 | N - Products change regularly, research needed
+T.| Total score | 28 | 25 |
+
+#### Feature Plan
+First increment:
+* Identify type & porosity
+* Understand type & porosity
+* Understand actions to take (creep risk)
+* Links to further research
+
+Second increment:
+* Add type routines
+* Add product information
+
+Third increment:
+* Add type/porosity table
+
+### **Structure**
+* See Information Grouping [mind map here](documents/structure.pdf).
+
+### **Skeleton**
+In line with structure planning, a clear and concise homepage designed in line with standard expectations, linking immediately to all parts of the site.  Each page also allows logical progression to effectively build knowledge.
+
+Each page broken down into small sections for easy digest of information.
+
+#### Wireframes
+1. [Mobile](assets/documents/curls-mobile.pdf) 375px
+2. [Tablet](assets/documents/curls-tablet.pdf) 768px
+3. [PC/Laptop](assets/documents/curls-pc.pdf) 1200px
+
+### **Surface**
+
+#### Colours
+Haircare and beauty in general can be perceived as a feminine area of interest, when in reality it is simple self-care.  A selection of bright colours across the spectrum were chosen to give an androgynous feel and complement a plain white background.  The very simplistic design is to allow the information to speak for itself, as the main purpose of the website, and to keep the data easily digestible by the user.
+![Colours option 1](assets/images/colors-opt-1.png)
+
+As an early design, it is noted that such a bold palette may not work in practice, and so a more muted set was selected as a more modern alternative.
+![Colours option 2](assets/images/colors-opt-2.png)
+
+#### Typography
+Three fonts are chosen for the website, all via Google Fonts.
+1. A fun and whimsical cursive font for the logo: "Sunshiney"
+2. A similar but easier to read cursive font for headings through the page, and for navigation links: "Delius Swash Caps"
+3. Finally, a simple sans-serif font for the body to facilitate easy reading.  Sans-serif fonts render well on lower resulution screens, and are generally considered more readable by those affected by dyslexia or similar reading difficulties: "Quicksand"
+
+![Example fonts](assets/images/typography.png)
 
 ## Features
 ---
 
-### Existing Features
+### **Existing Features**
 Uniform design across all pages in line with conventional practice.  This incorporates:
 * A sticky navigation bar which collapses to hamburger menu on mobile, with the Logo on the left and a stand-out Contact item on the right.  This allows quick and easy navigation of the website.
 * A footer which provides a mission statement, contact information (including pop-up contact modal), social media links and design information.  This provides a certain and familiar endpoint to every page.
@@ -86,10 +172,14 @@ This is where the content of the website ends, so no progression links are provi
 #### Contact
 A large image is shown at the top of the page to provide continuity with the rest of the website.  A contact form is provided to encourage users to engage with the community, which will help with retention rates.
 
-### Features for Future Implementation
+### **Features for Future Implementation**
 1. Connect contact form to email | Requires Javascript.
 2. Add pages for type specific care, to be accessed via a hair type sorter | Time constraints and technical knowledge both prevent this item from progressing at this time.
 3. Add pages for type specific haircare products, possibly with sponsored links | Time constraints prevent addition of more in-depth pages at this time.  Lack of industry contacts prevent the addition of sponsored links.
+
+## Testing
+---
+This information is held in the file [TESTING.md](TESTING.md)
 
 ## Technologies Used
 ---
@@ -108,15 +198,11 @@ A large image is shown at the top of the page to provide continuity with the res
 * Font Awesome is used to provide the icons for the website. (Version 4.7 is used to avoid the need to create "collections" which can be overwritten and therefore pose a risk to the site).
   * Link: [Font Awesome - V4.7](https://fontawesome.com/v4.7.0/get-started/)
 
-## Testing
----
-This information is held in the file [TESTING.md](TESTING.md)
-
 ## Deployment
 ---
 The website was created using [GitPod](https://www.gitpod.io/). Version control was undertaken by committing to [Git](https://git-scm.com/) and pushing to [GitHub](https://github.com/) using the functions within GitPod.
 
-### Deployment of the Page
+### **Deployment of the Page**
 1. In GitPod, ensure the tree is clean, and all required items have been committed and pushed to the repository in GitHub.
 2. Sign in to GitHub.
 3. A list of repositories should display on the left of the page. Choose the appropriate repository: lilblupig/curls-ms1
@@ -128,7 +214,7 @@ The website was created using [GitPod](https://www.gitpod.io/). Version control 
 7. The page will refresh, and the Pages section now shows a URL for the deployed site.
 8. Click the URL to view the deployed website.
 
-### How to Run the Code Locally
+### **How to Run the Code Locally**
 There are slightly different approaches should you choose to use GitPod to clone the project, or a local IDE.
 
 #### Cloning a Project into GitPod
@@ -154,7 +240,7 @@ You can find more information on cloning a repository from GitHub [here](https:/
 
 ## Credits
 ---
-### Website Credits
+### **Website Credits**
 
 #### Content
 - The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
@@ -166,12 +252,13 @@ You can find more information on cloning a repository from GitHub [here](https:/
 * This project was created using the following resources:
   * [Code Institute Full Template](https://github.com/Code-Institute-Org/gitpod-full-template).
 
-### README Credits
+### **README Credits**
 
 #### Content
 * Structure and content based heavily on:
   * [Code Institute Solutions - README Template](https://github.com/Code-Institute-Solutions/readme-template)
   * [Anna Greaves - Portrait Artist README](https://github.com/AJGreaves/portrait-artist/blob/master/README.md)
+  * [Karina Finnegan - Tunnel Focus README](https://github.com/kairosity/mp2-tunnel-focus/blob/master/README.md)
   * [Anna Greaves - Portrait Artist TESTING](https://github.com/AJGreaves/portrait-artist/blob/master/TESTING.md)
 
 #### Media
@@ -179,4 +266,7 @@ You can find more information on cloning a repository from GitHub [here](https:/
   * Snips taken from GitHub.
   * [Am I Responsive](http://ami.responsivedesign.is/).
   * Wireframes created with [Balsamiq](https://balsamiq.com/).
-  * [Markdown Cheat Sheet]()
+  * Colour mockups created with [Coolors](https://coolors.co/).
+
+#### Acknowledgments
+  * Markdown basic taken from [Mastering Markdown](https://guides.github.com/features/mastering-markdown/).
