@@ -5,7 +5,6 @@ body {
     padding: 0;
     font-family: "Quicksand", serif;
     font-weight: 500;
-    background-color: grey;
 }
 
 /*-----------------------------------Colours---*/
@@ -38,7 +37,7 @@ body {
      background-color: #8c00ff;
  }
 
-/*-----------------------------------Fonts & Headers---*/
+/*-----------------------------------Fonts & Headers----------------------*/
 
 h1 {
     font-family: "Sunshiney", cursive;
