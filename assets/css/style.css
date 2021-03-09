@@ -10,6 +10,10 @@ body {
 
 /*-----------------------------------Colours---*/
 
+.white {
+    background-color: white;
+}
+
 .blue {
     background-color: #00d9ff;
 }
@@ -53,6 +57,7 @@ nav {
     z-index: 1;
     font-family: "Delius Swash Caps", cursive;
     width: 100%;
+    line-height: 2rem;
 }
 
 .navbar {
@@ -61,18 +66,19 @@ nav {
     background-color: #00000000;
 }
 
-.navbar-brand {
+/*.navbar-brand {
     margin: 0;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
     font-family: "Sunshiney", cursive;
     letter-spacing: 0.2rem;
+    font-size: 1.8rem;
     background-color: #ffffff;
     border-style: solid;
     border-width: 1px;
     border-color: #000000;
     z-index: 1;
-}
+}*/
 
 .list-inline-item:not(:last-child) {
     margin-right: 0;
@@ -92,44 +98,59 @@ nav .container-fluid {
     right: 0;
 }
 
-.navbar-toggler {
-    border-style: none;
+.logo {
+    font-family: "Sunshiney", cursive;
+    font-size: 36px;
+    color: #000000;
+    border-bottom: solid;
+    border-width: 2px;
+    border-color: #000000;
+}
+
+.logo:hover {
+    font-family: "Sunshiney", cursive;
+    font-size: 36px;
+    color: #000000;
+    border-bottom: solid;
+    border-width: 2px;
+    border-color: #f700ff;
+}
+
+nav a {
+    border-bottom: solid;
+    border-width: 2px;
+    border-color: #000000;
+}
+
+nav a:hover {
+    border-bottom: solid;
+    border-width: 2px;
+    border-color: #ffffff;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #000000;
+}
+
+.navbar-light .navbar-toggler {
+    border: none;
+    border-bottom: solid;
+    border-width: 2px;
+    border-color: #00000000;
     border-radius: 0;
+    padding: 8px 16px;
+
 }
 
 .navbar-toggler:hover {
-    box-shadow: 0 0 0 0.05rem;
+    box-shadow: none;
+    border-bottom: solid;
+    border-width: 2px;
+    border-color: #00d9ff;
     background-color: white;
 }
 
 .navbar-toggler:focus {
-    box-shadow: 0 0 0 0.05rem;
-    background-color: white;
+    box-shadow: none;
 }
 
-/*-----------------------------------Code Credit-----------------------------------*/
-/*---https://codingyaar.com/responsive-bootstrap-navbar-underline-animation/---*/
-
-.navbar .navbar-nav .nav-link {
-  color: #000000;
-  font-size: 1.1em;
-  position: relative;
-}
-.navbar .navbar-nav .nav-link:hover {
-  color: #000000;
-}
-.navbar .navbar-nav .nav-link::after {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-  background-color: #000000;
-  color: transparent;
-  width: 0%;
-  content: '.';
-  height: 3px;
-}
-.navbar .navbar-nav .nav-link:hover::after {
-  width: 100%;
-}
