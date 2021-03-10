@@ -176,3 +176,17 @@ nav a:hover {
     text-align: center;
     color: #ffffff;
 }
+
+.hero-overlay-home {
+    background-color: rgba(0, 0, 0, 0.35);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+
+    position: absolute;
+}
+
+.hero-text {
+    z-index: 1;
+}
