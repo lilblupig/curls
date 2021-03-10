@@ -218,6 +218,19 @@ footer {
     padding-right: calc(var(--bs-gutter-x)/ 3);
 }
 
+.contact-us div button {
+    background-color: #00000000;
+    text-transform: uppercase;
+    padding: 0 2px;
+    border: none;
+    border-bottom: 1px solid #000000;
+}
+
+.contact-us div button:hover {
+    background-color: #ffffff;
+    border-bottom: 1px solid #2bff00;
+}
+
 ul li a i {
      color: #000000;
 }
