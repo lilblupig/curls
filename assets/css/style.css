@@ -191,3 +191,17 @@ nav a:hover {
 .hero-text {
     z-index: 1;
 }
+
+/*-----------------------------------Footer---------------------------------*/
+
+footer {
+    background-color: #aaaaaa;
+    font-size: 10px;
+    text-transform: uppercase;
+    border: 1px dashed #696969;
+}
+
+.footer-card {
+    border: 1px dashed #696969;
+    height: 80px;
+}
