@@ -76,7 +76,7 @@
                 </div>
                 <div class="col-6 col-sm-3 footer-card contact-us">
                     <div>
-                        <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Contact Us</button>
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#contactusModal">Contact Us</button>
                     </div>
                     <br>
                     <div>
@@ -118,17 +118,30 @@
         </div>
     </footer>
 
-    <!--------------------------Scripts-->
+    <!--------------------------Scripts--------------------------->
 
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade" id="contactusModal" tabindex="-1" aria-labelledby="contactusModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <h5 class="modal-title" id="contactusModalLabel">Got a question?</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    ...
+                    <form>
+                        <div>
+                            <label for="name">Your name</label>
+                            <input type="text" id="name" placeholder="Curly" name="name" required/>
+                        </div>
+                        <div>
+                            <label for="email">Your email</label>
+                            <input type="email" id="email" placeholder="McCurlington" name="email" required/>
+                        </div>
+                        <div>
+                            <label for="question">Your question</label>
+                            <textarea id="question" rows="6" cols="30" placeholder="How do I pineapple?" name="question" required></textarea>
+                        </div>
+                    </form>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
