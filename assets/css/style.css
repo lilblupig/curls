@@ -7,7 +7,7 @@ body {
     font-weight: 500;
 }
 
-/*-----------------------------------Colours---*/
+/*-----------------------------------Colours------------------------------*/
 
 .white {
     background-color: white;
@@ -160,4 +160,19 @@ nav a:hover {
 
 .navbar-nav .nav-link {
     padding: 8px 16px;
+}
+
+/*-----------------------------------Hero-----------------------------------*/
+
+.hero-container-home {
+    height: 100vh;
+
+    background: url("../images/hero-home.jpg") no-repeat top left;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #ffffff;
 }
