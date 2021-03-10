@@ -203,7 +203,8 @@ footer {
 
 .footer-card {
     border: 1px dashed #696969;
-    height: 80px;
+    height: 100px;
+    padding-top: calc(var(--bs-gutter-x)/ 2);
 }
 
 ul li a i {
