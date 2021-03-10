@@ -205,3 +205,20 @@ footer {
     border: 1px dashed #696969;
     height: 80px;
 }
+
+ul li a i {
+     color: #000000;
+}
+
+ul li a i:hover {
+     color: #ffffff;
+}
+
+.fa {
+    font-size: 30px;
+    letter-spacing: 10px;
+}
+
+.socials {
+    text-align: right;
+}
