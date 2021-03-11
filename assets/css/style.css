@@ -151,6 +151,10 @@ nav a:hover {
 
 }
 
+.navbar-light .navbar-toggler-icon {
+    background-image: url(../images/icons8-menu.svg);
+}
+
 .navbar-toggler:hover {
     box-shadow: none;
     border-bottom: solid;
