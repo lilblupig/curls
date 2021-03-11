@@ -250,6 +250,8 @@ You can find more information on cloning a repository from GitHub [here](https:/
 #### Media
 - The photos used in this site were obtained from ...
 
+* The hamburger SVG was obtained from the website [Icons8](https://icons8.com/icons/set/hamburger)
+
 #### Acknowledgements
 * This project was created using the following resources:
   * [Code Institute Full Template](https://github.com/Code-Institute-Org/gitpod-full-template).
