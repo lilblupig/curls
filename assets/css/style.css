@@ -231,6 +231,19 @@ nav a:hover {
     color: #ffffff;
 }
 
+.hero-container-contact {
+    height: 80vh;
+
+    background: url("../images/hero-contact.jpg") no-repeat top;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #ffffff;
+}
+
 .hero-overlay {
     background-color: rgba(0, 0, 0, 0.35);
     top: 0;
