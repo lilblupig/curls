@@ -231,6 +231,19 @@ nav a:hover {
     color: #ffffff;
 }
 
+.hero-container-more {
+    height: 80vh;
+
+    background: url("../images/hero-more.jpg") no-repeat center;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #ffffff;
+}
+
 .hero-container-contact {
     height: 80vh;
 
