@@ -22,7 +22,7 @@ body {
 }
 
 .yellow {
-    background-color: #f4ff54;
+    background-color: #fcff54;
 }
  
 .orange {
@@ -30,13 +30,21 @@ body {
  }
  
  .pink {
-     background-color: #f700ff;
+    background-color: #f700ff;
  }
 
  .purple {
-     background-color: #8c00ff;
+    background-color: #8c00ff;
  }
 
+
+ .hr-yellow, hr:not([size]) {
+    color: #fcff54;
+    width: 33%;
+    height: 10px;
+    opacity: 1;
+    margin: 0 auto;
+ }
 /*-----------------------------------Fonts & Headers----------------------*/
 
 h1 {
@@ -48,6 +56,9 @@ h1 {
 
 h2 {
     font-family: "Delius Swash Caps", cursive;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 3rem;
 }
 
 /*-----------------------------------Nav-----------------------------------*/
