@@ -297,7 +297,9 @@ nav a:hover {
 /*-----------------------------------Body-Home------------------------------*/
 
 .we-are {
-    padding: 20px;
+    margin-left : 2rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
 }
 
 
