@@ -327,6 +327,12 @@ nav a:hover {
     text-align: left;
 }
 
+.weapons i {
+    font-size: 4rem;
+    color: #00d9ff;
+    text-align: center;
+}
+
 /*-----------------------------------Footer---------------------------------*/
 
 footer {
