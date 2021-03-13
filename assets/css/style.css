@@ -44,6 +44,7 @@ body {
     height: 10px;
     opacity: 1;
     margin: 0 auto;
+    margin-bottom: 2rem;
  }
 /*-----------------------------------Fonts & Headers----------------------*/
 
@@ -59,6 +60,14 @@ h2 {
     text-transform: uppercase;
     text-align: center;
     margin-top: 3rem;
+}
+
+.text-centre {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
 }
 
 /*-----------------------------------Nav-----------------------------------*/
@@ -284,6 +293,16 @@ nav a:hover {
 .hero-text {
     z-index: 1;
 }
+
+/*-----------------------------------Body-Home------------------------------*/
+
+.we-are {
+    padding: 20px;
+}
+
+
+
+
 
 /*-----------------------------------Footer---------------------------------*/
 
