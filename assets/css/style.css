@@ -349,6 +349,10 @@ nav a:hover {
     text-align: center;
 }
 
+.inline-clock {
+    display: inline-block;
+}
+
 /*-----------------------------------Footer---------------------------------*/
 
 footer {
