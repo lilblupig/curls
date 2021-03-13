@@ -339,10 +339,14 @@ nav a:hover {
 
 /*-----------------------------------Body-Science---------------------------*/
 
-#diagram-shaft {
-    width: 100%;
+#diagram-shaft img {
+    width: 80%;
     height: auto;
-    margin: 0 auto;
+    border: 1px solid #696969;
+}
+
+#diagram-shaft {
+    text-align: center;
 }
 
 /*-----------------------------------Footer---------------------------------*/
