@@ -323,6 +323,10 @@ nav a:hover {
     color: white;
 }
 
+.weapons, .weapons h3 {
+    text-align: left;
+}
+
 /*-----------------------------------Footer---------------------------------*/
 
 footer {
