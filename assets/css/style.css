@@ -27,25 +27,24 @@ body {
  
 .orange {
     background-color: #ff8800;
- }
+}
  
- .pink {
+.pink {
     background-color: #f700ff;
- }
+}
 
- .purple {
+.purple {
     background-color: #8c00ff;
- }
+}
 
-
- .hr-yellow, hr:not([size]) {
-    color: #fcff54;
+.hr-wide, hr:not([size]) {
     width: 33%;
     height: 10px;
     opacity: 1;
     margin: 0 auto;
     margin-bottom: 2rem;
- }
+}
+
 /*-----------------------------------Fonts & Headers----------------------*/
 
 h1 {
@@ -62,12 +61,27 @@ h2 {
     margin-top: 3rem;
 }
 
+h3 {
+    font-family: "Delius Swash Caps", cursive;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 16px;
+}
+
 .text-centre {
     text-align: center;
 }
 
 .text-right {
     text-align: right;
+}
+
+.lists {
+    list-style: none;
+}
+
+.space {
+    padding-bottom: 2rem;
 }
 
 /*-----------------------------------Nav-----------------------------------*/
@@ -299,12 +313,7 @@ nav a:hover {
 .we-are {
     margin-left : 2rem;
     margin-right: 2rem;
-    margin-bottom: 2rem;
 }
-
-
-
-
 
 /*-----------------------------------Footer---------------------------------*/
 
