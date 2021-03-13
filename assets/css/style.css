@@ -84,8 +84,13 @@ a {
     list-style: none;
 }
 
-.space {
+.bottom-space {
     padding-bottom: 2rem;
+}
+
+.side-space {
+    margin-left : 2rem;
+    margin-right: 2rem;
 }
 
 /*-----------------------------------Nav-----------------------------------*/
@@ -314,11 +319,6 @@ nav a:hover {
 
 /*-----------------------------------Body-Home------------------------------*/
 
-.we-are {
-    margin-left : 2rem;
-    margin-right: 2rem;
-}
-
 .need-to-know a {
     color: white;
 }
@@ -331,6 +331,10 @@ nav a:hover {
     font-size: 4rem;
     color: #00d9ff;
     text-align: center;
+}
+
+.further a {
+    color: #ffffff;
 }
 
 /*-----------------------------------Footer---------------------------------*/
