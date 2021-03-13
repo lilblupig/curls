@@ -68,6 +68,10 @@ h3 {
     font-size: 16px;
 }
 
+a {
+    text-decoration: none;
+}
+
 .text-centre {
     text-align: center;
 }
@@ -313,6 +317,10 @@ nav a:hover {
 .we-are {
     margin-left : 2rem;
     margin-right: 2rem;
+}
+
+.need-to-know a {
+    color: white;
 }
 
 /*-----------------------------------Footer---------------------------------*/
