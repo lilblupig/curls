@@ -365,6 +365,10 @@ nav a:hover {
     list-style-type: lower-alpha; 
 }
 
+.number {
+    color: #fcff54;
+}
+
 /*-----------------------------------Footer---------------------------------*/
 
 footer {
