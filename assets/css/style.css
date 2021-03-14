@@ -367,6 +367,20 @@ nav a:hover {
 
 .number {
     color: #fcff54;
+    padding: 0;
+}
+
+.hair-diagrams h1 {
+    font-size: 40px;
+}
+
+.row.hair-diagrams.bottom-space {
+    padding-top: 2rem;
+}
+
+.diagram-type {
+    border: 1px solid #ff8800;
+    padding: 0;
 }
 
 /*-----------------------------------Footer---------------------------------*/
