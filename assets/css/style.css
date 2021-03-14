@@ -426,6 +426,10 @@ h2.accordion-header {
     text-align: center;
 }
 
+a.more-link {
+    color: #00d9ff;
+}
+
 div.col-12.row {
     padding-left: 0;
     padding-right: 0;
