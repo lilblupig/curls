@@ -441,6 +441,11 @@ div.col-12.row {
     color: #ffffff;
 }
 
+.contact-link {
+    font-family: "Delius Swash Caps", cursive;
+    text-transform: uppercase;
+}
+
 /*-----------------------------------Body-404---------------------------------*/
 
 .not-found {
