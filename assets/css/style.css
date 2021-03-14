@@ -345,12 +345,14 @@ nav a:hover {
     border: 1px solid #696969;
 }
 
-#diagram-shaft {
+#diagram-shaft, #diagram-follicle {
     text-align: center;
 }
 
-.inline-clock {
-    display: inline-block;
+#diagram-follicle img {
+    width: 80%;
+    height: auto;
+    border: 1px solid #696969;
 }
 
 /*-----------------------------------Footer---------------------------------*/
