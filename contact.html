@@ -70,7 +70,9 @@
             <div class="row">
                 <div class="col-12">
                     <h2>The Contact Form</h2>
-                    <hr class="hr-yellow" />
+                </div>
+                <div class="col-12 offset-lg-1 col-lg-10 text-center">
+                    <hr class="hr-wide blue" />
                     <p>We are a small, volunteer based team who have come to love our curls (most days!), and we want to
                         share that with as many people as we can! Whiz us a question and we will get back to you as soon
                         as we can.</p>
@@ -83,30 +85,25 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12">
-                    <form action="" method="POST">
-                        <fieldset>
+                    <form action="" method="">
+                        <fieldset class="row bottom-space">
                             <legend>Ask away!</legend>
-                            <div class="row">
-                                <label class="offset-2 col-2 col-form-label" for="form-name">Your name</label>
-                                <div class="col-6"><input type="text" id="form-name" class="form-control"
+                                <label class="col-12 col-md-2 offset-lg-2 col-form-label" for="form-name">Your name</label>
+                                <div class="col-12 col-md-4"><input type="text" id="form-name" class="form-control"
                                         placeholder="Curly" name="name" required />
                                 </div>
-                            </div>
-                            <div class="row">
-                                <label class="offset-2 col-2 col-form-label" for="form-email">Your email</label>
-                                <div class="col-6"><input type="email" id="form-email" class="form-control"
+                                <label class="col-12 col-md-2 offset-lg-2 col-form-label" for="form-email">Your email</label>
+                                <div class="col-12 col-md-4"><input type="email" id="form-email" class="form-control"
                                         placeholder="McCurlington" name="email" required />
                                 </div>
-                            </div>
-                            <div class="row">
-                                <label class="offset-2 col-2 col-form-label" for="form-question">Your question</label>
-                                <div class="col-6"><textarea id="form-question" class="form-control" rows="6" cols="30"
+                                <div class="d-none d-md-block col-md-12">&nbsp</div>
+                                <label class="col-12 col-md-2 offset-lg-2 col-form-label" for="form-question">Your question</label>
+                                <div class="col-12 col-md-10 bottom-space"><textarea id="form-question" class="form-control" rows="6" cols="30"
                                         placeholder="How do I pineapple?" name="question" required></textarea>
                                 </div>
-                            </div>
-                            <div>
-                                <button type="submit">Ask!</button>
-                            </div>
+                                <div class="text-center">
+                                    <button class="btn button-link blue" type="submit">Ask!</button>
+                                </div>
                         </fieldset>
                     </form>
                 </div>
