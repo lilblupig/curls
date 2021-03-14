@@ -92,9 +92,9 @@ a {
     padding-bottom: 2rem;
 }
 
-.side-space {
-    margin-left : 2rem;
-    margin-right: 2rem;
+.button-link {
+    font-family: "Delius Swash Caps", cursive;
+    text-transform: uppercase;
 }
 
 /*-----------------------------------Nav-----------------------------------*/
@@ -439,11 +439,6 @@ div.col-12.row {
 
 .where-next a {
     color: #ffffff;
-}
-
-.contact-link {
-    font-family: "Delius Swash Caps", cursive;
-    text-transform: uppercase;
 }
 
 /*-----------------------------------Body-404---------------------------------*/
