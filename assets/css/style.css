@@ -332,7 +332,7 @@ nav a:hover {
 #diagram-shaft img {
     width: 80%;
     height: auto;
-    border: 1px solid #00d9ff;
+    border: 1px solid #2bff00;
 }
 
 #diagram-shaft, #diagram-follicle {
@@ -342,7 +342,7 @@ nav a:hover {
 #diagram-follicle img {
     width: 80%;
     height: auto;
-    border: 1px solid #2bff00;
+    border: 1px solid #000000;
 }
 
 a.types-link {
