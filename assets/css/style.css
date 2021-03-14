@@ -369,12 +369,19 @@ a.types-link {
     list-style-type: lower-alpha; 
 }
 
-.number {
+p.number {
+    font-family: "Sunshiney", cursive;
+    font-size: 5rem;
+    margin-bottom: 0;
+    letter-spacing: 0.2rem;
     color: #fcff54;
     padding: 0;
 }
 
-.hair-diagrams h1 {
+.hair-diagrams p {
+    font-family: "Sunshiney", cursive;
+    margin-bottom: 0;
+    letter-spacing: 0.2rem;
     font-size: 40px;
 }
 
