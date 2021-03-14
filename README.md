@@ -255,6 +255,7 @@ You can find more information on cloning a repository from GitHub [here](https:/
 #### Acknowledgements
 * This project was created using the following resources:
   * [Code Institute Full Template](https://github.com/Code-Institute-Org/gitpod-full-template).
+  * [DailyMotion Aspect Preservation](https://faq.dailymotion.com/hc/en-us/articles/360022841393-How-to-preserve-the-player-aspect-ratio-on-a-responsive-page)
 
 ### **README Credits**
 
