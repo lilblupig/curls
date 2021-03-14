@@ -76,6 +76,10 @@ a {
     text-align: center;
 }
 
+.text-left {
+    text-align: left;
+}
+
 .text-right {
     text-align: right;
 }
@@ -355,6 +359,12 @@ nav a:hover {
     border: 1px solid #696969;
 }
 
+/*-----------------------------------Body-Types-----------------------------*/
+
+.abc {
+    list-style-type: lower-alpha; 
+}
+
 /*-----------------------------------Footer---------------------------------*/
 
 footer {
@@ -374,11 +384,6 @@ footer {
     float: right;
     text-align: right;
     list-style: none;
-}
-
-.row>* {
-    padding-left: calc(var(--bs-gutter-x)/ 3);
-    padding-right: calc(var(--bs-gutter-x)/ 3);
 }
 
 .contact-us div button {
