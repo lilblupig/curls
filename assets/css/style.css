@@ -420,6 +420,19 @@ h2.accordion-header {
     background-color: #ffffff;
 }
 
+.tools i {
+    font-size: 4rem;
+    color: #ff8800;
+    text-align: center;
+}
+
+div.col-12.row {
+    padding-left: 0;
+    padding-right: 0;
+    margin-right: 0;
+    margin-left: 0;
+}
+
 /*-----------------------------------Footer---------------------------------*/
 
 footer {
