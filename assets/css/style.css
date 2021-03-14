@@ -443,6 +443,10 @@ div.col-12.row {
     font-size: 4rem;
 }
 
+.where-next a {
+    color: #ffffff;
+}
+
 /*-----------------------------------Footer---------------------------------*/
 
 footer {
