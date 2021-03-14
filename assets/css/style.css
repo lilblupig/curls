@@ -346,7 +346,7 @@ nav a:hover {
 #diagram-shaft img {
     width: 80%;
     height: auto;
-    border: 1px solid #696969;
+    border: 1px solid #00d9ff;
 }
 
 #diagram-shaft, #diagram-follicle {
@@ -356,7 +356,7 @@ nav a:hover {
 #diagram-follicle img {
     width: 80%;
     height: auto;
-    border: 1px solid #696969;
+    border: 1px solid #2bff00;
 }
 
 /*-----------------------------------Body-Types-----------------------------*/
