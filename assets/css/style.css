@@ -359,6 +359,10 @@ nav a:hover {
     border: 1px solid #2bff00;
 }
 
+a.types-link {
+    color: #ffffff;
+}
+
 /*-----------------------------------Body-Types-----------------------------*/
 
 .abc {
@@ -381,6 +385,10 @@ nav a:hover {
 .diagram-type {
     border: 1px solid #ff8800;
     padding: 0;
+}
+
+a.actions-link {
+    color: #ff8800;
 }
 
 /*-----------------------------------Footer---------------------------------*/
