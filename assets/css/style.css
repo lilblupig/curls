@@ -445,6 +445,10 @@ div.col-12.row {
     color: #ffffff;
 }
 
+.where-next a:hover {
+    color: #696969;
+}
+
 /*-----------------------------------Body-Contact----------------------------*/
 
 .form-control {
