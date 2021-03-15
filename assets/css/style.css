@@ -327,9 +327,13 @@ nav a:hover {
     text-align: center;
 }
 
-/*.further a {
+.further ol a {
     color: #ffffff;
-}*/
+}
+
+.further ol a:hover {
+    color: #696969;
+}
 
 /*-----------------------------------Body-Science---------------------------*/
 
