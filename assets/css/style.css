@@ -441,6 +441,17 @@ div.col-12.row {
     color: #ffffff;
 }
 
+/*-----------------------------------Body-Contact----------------------------*/
+
+.form-control {
+    border-radius: 0;
+}
+
+.form-control:focus {
+    border-color: #00d9ff;
+    box-shadow: 0 0 0 0.25rem rgb(0 217 255 / 25%)
+}
+
 /*-----------------------------------Body-404---------------------------------*/
 
 .not-found {
