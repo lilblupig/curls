@@ -472,13 +472,13 @@ div.col-12.row {
 /*-----------------------------------Body-404---------------------------------*/
 
 .not-found {
-    height: 50vh;
+    height: 40vh;
     margin: 0 auto;
     padding-top: 20vh;
 }
 
-.not-found p, .not-found h1 {
-    display: block;
+.body-not-found {
+    height: 60vh;
 }
 
 /*-----------------------------------Footer---------------------------------*/
