@@ -97,6 +97,10 @@ a {
     text-transform: uppercase;
 }
 
+.button-link:hover {
+    box-shadow: 0 0 0 0.25rem rgb(0 0 0 / 25%)
+}
+
 /*-----------------------------------Nav-----------------------------------*/
 
 nav {
