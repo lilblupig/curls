@@ -472,14 +472,14 @@ div.col-12.row {
 /*-----------------------------------Footer---------------------------------*/
 
 footer {
-    background-color: #aaaaaa;
+    background-color: #ffffff;
     font-size: 10px;
     text-transform: uppercase;
-    border: 1px dashed #696969;
+    border-top: 2px solid #00d9ff;
 }
 
 .footer-card {
-    border: 1px dashed #696969;
+    /*border: 1px dashed #696969;*/
     height: 100px;
     padding-top: calc(var(--bs-gutter-x)/ 3);
 }
