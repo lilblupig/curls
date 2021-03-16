@@ -102,7 +102,7 @@ nav {
     padding: 0;
     position: fixed;
     top: 0;
-    background-color: #00000000;
+    background-color: #ffffff;
 }
 
 .list-inline-item:not(:last-child) {
@@ -129,7 +129,7 @@ nav .container-fluid {
     color: #000000;
     border-bottom: solid;
     border-width: 2px;
-    border-color: #000000;
+    border-color: #ffffff;
 }
 
 .logo:hover {
@@ -144,13 +144,13 @@ nav .container-fluid {
 nav a {
     border-bottom: solid;
     border-width: 2px;
-    border-color: #000000;
+    border-color: #ffffff;
 }
 
 nav a:hover {
     border-bottom: solid;
     border-width: 2px;
-    border-color: #ffffff;
+    border-color: #000000;
 }
 
 .navbar-light .navbar-nav .nav-link {
