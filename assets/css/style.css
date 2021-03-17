@@ -18,7 +18,7 @@ body {
 }
 
 .green {
-    background-color: #2bff00
+    background-color: #88ff70;
 }
 
 .yellow {
@@ -26,15 +26,11 @@ body {
 }
  
 .orange {
-    background-color: #ff8800;
+    background-color: #ffa947;
 }
  
 .pink {
-    background-color: #f700ff;
-}
-
-.purple {
-    background-color: #8c00ff;
+    background-color: #f947ff;
 }
 
 /*-----------------------------------Fonts & Headers----------------------*/
@@ -130,7 +126,7 @@ nav .container-fluid {
     color: #000000;
     border-bottom: solid;
     border-width: 2px;
-    border-color: #f700ff;
+    border-color: #f947ff;
 }
 
 nav a {
@@ -316,7 +312,7 @@ nav a:hover {
 #diagram-shaft img {
     width: 80%;
     height: auto;
-    border: 1px solid #2bff00;
+    border: 1px solid #88ff70;
 }
 
 #diagram-shaft, #diagram-follicle {
@@ -360,12 +356,12 @@ p.number {
 }
 
 .diagram-type {
-    border: 1px solid #ff8800;
+    border: 1px solid #ffa947;
     padding: 0;
 }
 
 a.actions-link {
-    color: #ff8800;
+    color: #ffa947;
 }
 
 /*-----------------------------------Body-Actions---------------------------*/
@@ -404,7 +400,7 @@ h2.accordion-header {
 
 .tools i {
     font-size: 4rem;
-    color: #ff8800;
+    color: #ffa947;
     text-align: center;
 }
 
@@ -478,15 +474,15 @@ footer {
 }
 
 .instagram {
-    color: #2bff00;
+    color: #88ff70;
 }
 
 .pinterest {
-    color: #ff8800
+    color: #ffa947
 }
 
 .youtube {
-    color: #f700ff;
+    color: #f947ff;
 }
 
 ul li a i:hover {
