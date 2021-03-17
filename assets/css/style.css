@@ -374,6 +374,11 @@ nav a:hover {
 
 /*-----------------------------------Body-Actions---------------------------*/
 
+.actions-droplet {
+    color: orange;
+    margin-bottom: 1rem;
+}
+
 /*--- Acknowledment video wrapper: Daily Motion https://faq.dailymotion.com/hc/en-us/articles/360022841393-How-to-preserve-the-player-aspect-ratio-on-a-responsive-page ---*/
 .video-wrapper {
     position: relative;
