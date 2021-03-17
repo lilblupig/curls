@@ -398,7 +398,7 @@ h2.accordion-header {
 }
 
 .accordion-button:focus {
-    border-color: #00d9ff;
+    border-color: #ffa947;
     box-shadow: 0 0 0 0.25rem rgb(255 255 255 / 25%)
 }
 
@@ -415,10 +415,6 @@ h2.accordion-header {
     font-size: 4rem;
     color: #ffa947;
     text-align: center;
-}
-
-a.more-link {
-    color: #00d9ff;
 }
 
 div.col-12.row {
