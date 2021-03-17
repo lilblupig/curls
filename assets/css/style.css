@@ -37,14 +37,6 @@ body {
     background-color: #8c00ff;
 }
 
-.hr-wide, hr:not([size]) {
-    width: 33%;
-    height: 10px;
-    opacity: 1;
-    margin: 0 auto;
-    margin-bottom: 2rem;
-}
-
 /*-----------------------------------Fonts & Headers----------------------*/
 
 h1 {
