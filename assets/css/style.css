@@ -476,50 +476,31 @@ footer {
     font-size: 10px;
     text-transform: uppercase;
     border-top: 2px solid #00d9ff;
+    text-align: center;
 }
 
 .footer-card {
-    /*border: 1px dashed #696969;*/
     height: 100px;
     padding-top: calc(var(--bs-gutter-x)/ 3);
+    
 }
 
-.contact-us div ul {
-    float: right;
-    text-align: right;
-    list-style: none;
+.instagram {
+    color: #2bff00;
 }
 
-.contact-us div button {
-    background-color: #00000000;
-    text-transform: uppercase;
-    padding: 0 2px;
-    border: none;
-    border-bottom: 1px solid #000000;
+.pinterest {
+    color: #ff8800
 }
 
-.contact-us div button:hover {
-    background-color: #ffffff;
-    border-bottom: 1px solid #2bff00;
-}
-
-ul li a i {
-     color: #000000;
+.youtube {
+    color: #f700ff;
 }
 
 ul li a i:hover {
-     color: #ffffff;
+     color: #000000;
 }
 
 .fa {
     font-size: 30px;
-    letter-spacing: 10px;
-}
-
-.socials {
-    text-align: right;
-}
-
-footer div .design {
-    text-align: right;
 }
