@@ -331,11 +331,11 @@ a.types-link {
 
 /*-----------------------------------Body-Types-----------------------------*/
 
-.abc {
+.type-abc {
     list-style-type: lower-alpha; 
 }
 
-p.number {
+.type-number-lg {
     font-family: "Sunshiney", cursive;
     font-size: 5rem;
     margin-bottom: 0;
@@ -344,24 +344,20 @@ p.number {
     padding: 0;
 }
 
-.hair-diagrams p {
+.type-number-sm {
     font-family: "Sunshiney", cursive;
     margin-bottom: 0;
     letter-spacing: 0.2rem;
     font-size: 40px;
 }
 
-.row.hair-diagrams.bottom-space {
+.hair-type-diagrams {
     padding-top: 2rem;
 }
 
-.diagram-type {
-    border: 1px solid #ffa947;
+.type-diagram {
+    border: 1px solid #fcff54;
     padding: 0;
-}
-
-a.actions-link {
-    color: #ffa947;
 }
 
 /*-----------------------------------Body-Actions---------------------------*/
