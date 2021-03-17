@@ -336,10 +336,6 @@ nav a:hover {
     margin-bottom: 1rem;
 }
 
-a.types-link {
-    color: #ffffff;
-}
-
 /*-----------------------------------Body-Types-----------------------------*/
 
 .type-abc {
@@ -369,6 +365,11 @@ a.types-link {
 .type-diagram {
     border: 1px solid #fcff54;
     padding: 0;
+}
+
+.types-absorb {
+    color: yellow;
+    margin-bottom: 1rem;
 }
 
 /*-----------------------------------Body-Actions---------------------------*/
