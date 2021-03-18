@@ -309,6 +309,16 @@ nav a:hover {
     color: #696969;
 }
 
+.more-card {
+    width: 100%;
+    min-height: 12rem;
+}
+
+.lists-home {
+    list-style: none;
+    padding: 0;
+}
+
 /*-----------------------------------Body-Science---------------------------*/
 
 #diagram-shaft img {
