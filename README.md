@@ -175,27 +175,27 @@ Three fonts are chosen for the website, all via Google Fonts.
 
 ### **Existing Features**
 Uniform design across all pages in line with conventional practice.  This incorporates:
-* A sticky navigation bar which collapses to hamburger menu on mobile, with the Logo on the left and a stand-out Contact item on the right.  This allows quick and easy navigation of the website.
-* A footer which provides a mission statement, contact information (including pop-up contact modal), social media links and design information.  This provides a certain and familiar endpoint to every page.
+* A sticky navigation bar which collapses to hamburger menu on mobile and tablet, with the Logo on the left and a stand-out Contact item on the right.  This allows quick and easy navigation of the website.
+* A footer which provides a mission statement and design information, and social media links.  This provides a certain and familiar endpoint to every page.
 * Consistent, defined design across information delivery sections of the website.  This allows intuitive use of the website through familiarity.
 * Every page starts with a hero image, to elicit a positive emotional response.
 * The website is designed to be bright and clean with the focus on the information itself.  This allows the user to fulfil their purpose of obtaining knowledge without distraction.
 * Androgynous design is deliberately chosen as the content is traditionally seen as feminine.  This helps users who identify as other than female to feel comfortable using the site.
-* Where a particular source has provided the base content for any section it is linked to in the bottom right of that section.  This allows the user to explore the information in greater detail should they wish to do so.
+* Colours for each page are tied to the colour of the related navigation bar component to assist with centering.
 * Every page has at least one internal link near the bottom of the page to avoid users becoming "trapped", and to encourage them on their journey through the website.
-* The footer contains a pop-up contact modal.  This allows the user to easily access help or tailored information from anywhere on the site.
+* The Contact Us part of the navigation bar is displayed proudly on the right of the page.  This allows the user to easily access help or tailored information from anywhere on the site.
 
 #### Home
 The page features a relevant full screen hero image to provide positive emotional response and visual validation that the user is in a location which meets their needs.
 
-The page then contains very short snapshots of all of the information contained in following pages.  These sections are clearly structured to relate directly to the links in the navigation bar.  This serves multiple purposes:
+The page then contains very short snapshots of all of the information contained in following pages.  These sections are clearly structured to relate directly to the links in the navigation bar and coloured accordingly.  This serves multiple purposes:
 1. It allows the user to quickly determine if the website contains the information they are looking for.
 2. It allows the user to quickly identify which part of the website contains the information that they are looking for, and a means to navigate to it easily.
 
 #### Science
 The page also opens with a relevant hero image, though this is not quite full screen to allow "peeping" to encourage the user to scroll to the information below.
 
-Information is presented in short, defined sections to prevent user fatigue and these are structured consistely with the sections on the home page to provide a familiar, comfortable experience.
+Information is presented in short, defined sections to prevent user fatigue and these are structured consistently with the sections on the home page to provide a familiar, comfortable experience.
 
 Diagrams are used to provide a visual representation of the data provided and help facilitate understanding.
 
@@ -205,12 +205,12 @@ The bottom of the article contains a link to the next page in the logical progre
 This page mirrors the Science page in layout to provide a secure, intuitive experience for the user.  Sections are once again defined in short digestible chunks and supported by visual aids.  The page again, ends with a link to the next page in the sequence.
 
 #### Actions
-As with the Science and Types pages, design remains focussed on provision of information in small defined sections.  Icons are used to provide graphic relief from large bodies of text and introduce splashes of colour.  These are used in place of the diagrams shown in previous sections which do not apply here and helps to keep the consistency of design by maintaining the presence of small images amongst the body.  A link encourages the user to the next page just before the footer.
+As with the Science and Types pages, design remains focussed on provision of information in small defined sections.  Icons and Bootstrap accordion components are used to provide graphic relief from large bodies of text and introduce splashes of colour.  These are used in place of the diagrams shown in previous sections which do not apply here and helps to keep the consistency of design by maintaining the presence of small images amongst the body.  Embedded video provides further relief from a particularly text-heavy page.  A link encourages the user to the next page just before the footer.
 
 #### More Info
-Still following the design of the previous pages, clear and defined information sections are provided, here also relieved by the use of icons to break up the text content.
+Still following the design of the previous pages, clear and defined information sections are provided, here also relieved by the use of icons to break up the text content.  A link to the Contact Us page encourages the user to engage further.
 
-This is where the content of the website ends, so no progression links are provided.  However, in line with the purpose of the owner to grow the community, links to external resources which provide further, more specific information are provided here with descriptions of what can be found at each.
+This is where the content of the website ends.  In line with the purpose of the owner to grow the community, links to external resources which provide further, more specific information are provided here with descriptions of what can be found at each.
 
 #### Contact
 A large image is shown at the top of the page to provide continuity with the rest of the website.  A contact form is provided to encourage users to engage with the community, which will help with retention rates.
