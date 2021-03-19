@@ -292,9 +292,22 @@ The content used for the website is drawn directly from the knowledge of the cre
 * Types Page - Section 1 - [Allure](https://www.allure.com/gallery/curl-hair-type-guide/amp)
 * Types Page - Section 2 - [L'Oreal](https://www.lorealparisusa.com/beauty-magazine/hair-care/damaged-hair/hair-porosity.aspx)
 
-
 #### Media
-* The photographs used for the website were obtained from 
+* The photographs used for the website were obtained from [Pexels.com](www.pexels.com):
+    * Home Hero - [Keira Burton](https://www.pexels.com/photo/multiracial-positive-male-and-female-students-using-smartphones-in-city-park-6146931/)
+    * Types Hero - Composite image collated by creator from [Nataliya Vaitkevich](https://www.pexels.com/photo/photo-of-woman-looking-serious-4450401/), [Владимир Васильев](https://www.pexels.com/photo/woman-in-light-white-dress-in-forest-5003435/) and [Gift Habeshaw](https://www.pexels.com/photo/young-black-man-with-curly-hair-against-neon-cross-3905285/)
+    * Actions Hero - [cottonbro](https://www.pexels.com/photo/woman-in-bathtub-with-water-4155482/)
+    * More Hero - [cottonbro](https://www.pexels.com/photo/man-people-woman-coffee-5529908/)
+    * Contact Hero - [Christina Morillo](https://www.pexels.com/photo/photography-of-woman-using-laptop-1181742/)
+
+* The diagrams used for the website were obtained from various places:
+    * Science Hero - [By CSIRO](https://commons.wikimedia.org/w/index.php?curid=35489670), [Creative Commons licence](https://creativecommons.org/licenses/by/3.0), changes: Crop to include only human hair, remove merino wool fibre
+    * Science Hair Structure Diagram - made by creator in Paint3D for this project
+    * Science Hair Follicle Diagram - [By HairFollicle](https://commons.wikimedia.org/w/index.php?curid=6910143), Creative Commons Licence
+    * Types Hair Typing Diagrams x 4 - made by creator in Google Keep notes 
+
+* The embedded video used in the Actions page is from YouTube:
+    * [Manes By Mell](https://www.youtube.com/watch?v=Fk-pLSxYPh8&t=1s)
 
 * The hamburger SVG was obtained from the website [Icons8](https://icons8.com/icons/set/hamburger)
 
@@ -302,6 +315,7 @@ The content used for the website is drawn directly from the knowledge of the cre
 * This project was created using the following resources:
   * [Code Institute Full Template](https://github.com/Code-Institute-Org/gitpod-full-template).
   * [DailyMotion Aspect Preservation](https://faq.dailymotion.com/hc/en-us/articles/360022841393-How-to-preserve-the-player-aspect-ratio-on-a-responsive-page)
+  * [101 Computing Favicons](https://www.101computing.net/html-how-to-add-a-favicon/)
 
 ### **README Credits**
 
@@ -311,6 +325,7 @@ The content used for the website is drawn directly from the knowledge of the cre
   * [Anna Greaves - Portrait Artist README](https://github.com/AJGreaves/portrait-artist/blob/master/README.md)
   * [Karina Finnegan - Tunnel Focus README](https://github.com/kairosity/mp2-tunnel-focus/blob/master/README.md)
   * [Anna Greaves - Portrait Artist TESTING](https://github.com/AJGreaves/portrait-artist/blob/master/TESTING.md)
+  * [Daisy McGirr - Code Institute Testing Webinar](https://us02web.zoom.us/rec/play/9FIKllHX2ZiQNFRhYPn_hBh_ZeA8964ZvIDLnhpKGAf1NLVc3_hBJ6zSL8Hv5Hx7ALnPtDmbg8CmFAs.YVsZ9LR_uI7OjEwH)
 
 #### Media
 * The images for this README are from the following sources:
@@ -319,5 +334,5 @@ The content used for the website is drawn directly from the knowledge of the cre
   * Wireframes created with [Balsamiq](https://balsamiq.com/).
   * Colour mockups created with [Coolors](https://coolors.co/).
 
-#### Acknowledgments
+#### Acknowledegments
   * Markdown basic taken from [Mastering Markdown](https://guides.github.com/features/mastering-markdown/).
