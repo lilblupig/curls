@@ -3,11 +3,11 @@
 ## **Overview**
 ---
 
-An easily accessible basic resource for people looking for information about haircare methods specific to curly hair. Changes in fashion and greater acceptance of individuality mean more people are able to wear naturally curly hair in a professional environment as well as in other situations in which it would have been considered inappropriate.
+An easily accessible basic resource for people looking for information about haircare methods specific to curly hair. Changes in fashion and greater acceptance of individuality mean more people are able to wear naturally curly hair in a professional environment as well as in other situations in which it would have previously been considered inappropriate.
 
 Decades of straightening, blow-drying and otherwise taming or conatining curls have meant that information about curly haircare is thin on the ground, and what there is is very spread out.  This website aims to pull together all of the basic information a curly converter might need to get started, and then provide them with links for further reading should they need or want it.
 
------------------**Am I responsive image here**------------------
+![Am I Responsive Image](assets/images/am-i-responsive.png)
 
 # Index
 1. [UX](#ux)
@@ -17,7 +17,7 @@ Decades of straightening, blow-drying and otherwise taming or conatining curls h
     * [Structure](#structure)
     * [Skeleton](#skeleton)
     * [Surface](#surface)
-2. [Features](#features)
+1. [Features](#features)
     * [Existing Features](#existing-features)
       * [Home](#home)
       * [Science](#science)
@@ -26,25 +26,30 @@ Decades of straightening, blow-drying and otherwise taming or conatining curls h
       * [More Info](#more-info)
       * [Contact](#contact)
     * [Features for Future Implementation](#features-for-future-implementation)
-3. [Testing](#testing)
-4. [Technologies Used](#technologies-used)
-5. [Deployment](#deployment)
+1. [Testing](#testing)
+1. [Technologies Used](#technologies-used)
+1. [Deployment](#deployment)
     * [Via GitPod](#deployment-of-the-page)
     * [Cloning Locally](#how-to-run-the-code-locally)
-6. [Credits](#credits)
+1. [Credits](#credits)
     * [Website](#website-credits)
     * [README](#readme-credits)
 
 ## UX
 ---
 
+Adopters of curly specific haircare do tend to be female and younger, however this is rapidly changing as male grooming becomes more mainstream, and personal freedoms become more acceptable for all generations.  The users of this website therefore could be anybody, regardless of age or gender and the design is approached accordingly.
+*  Bright unisex colours are offset by classic, largely white sections and black/white text and details.
+*  Soft scrolling fonts are contrasted with sharp, angled corners and straight lines.
+*  Imagery is fairly inclusive, although it was not possible to find suitable pictures of older people with spectacular natural curly hair.
+
 ### **User Stories**
 1. As a new user, I want to quickly determine if the website contains information I need, so that I know quickly whether to stay on the page.
-2. As a new user, I want to easily determine and navigate to a point on the website which is appropriate for my existing knowledge, so that I do not waste time.
-3. As a new user, I want to learn about basic techniques that I can use right away, so that I can start putting research into action.
-4. As a returning user, I want to determine my hair type and porosity, so that I can tailor the techniques I learned before.
-5. As a returning user, I want to be able to easily contact the site owners with questions, so that I can obtain tailored information or troubleshoot issues.
-6. As a frequent user, I want to be able to navigate quickly and easily to the relevant part of the website which contains the information I need, so that I can quickly fulfil the reason for my visit.
+1. As a new user, I want to easily determine and navigate to a point on the website which is appropriate for my existing knowledge, so that I do not waste time.
+1. As a new user, I want to learn about basic techniques that I can use right away, so that I can start putting research into action.
+1. As a returning user, I want to determine my hair type and porosity, so that I can tailor the techniques I learned before.
+1. As a returning user, I want to be able to easily contact the site owners with questions, so that I can obtain tailored information or troubleshoot issues.
+1. As a frequent user, I want to be able to navigate quickly and easily to the relevant part of the website which contains the information I need, so that I can quickly fulfil the reason for my visit.
 
 ### **Strategy**
 This website is for individuals looking for information to help them decide whether curly haircare is for them, and if it is, identify the characteristics of their hair and what their first steps might be.
@@ -66,7 +71,7 @@ User aims:
 * Learn where to find information specific to indentified hair type
 
 ### **Scope**
-The project is born of my own experience trying to find information on how to get defined, glossy curls.  There was lots and lots of information but all scattered about, and nothing aimed directly at a beginner.
+The project is born of the designers own experience trying to find information on how to get defined, glossy curls.  There was lots and lots of information but all scattered about, and nothing aimed directly at a beginner.
 
 The scope of the project therefore is to provide condensed, basic information which can give the user the tools they need to get started.
 
@@ -101,25 +106,61 @@ Third increment:
 * See Information Grouping [mind map here](documents/structure.pdf).
 
 ### **Skeleton**
-In line with structure planning, a clear and concise homepage designed in line with standard expectations, linking immediately to all parts of the site.  Each page also allows logical progression to effectively build knowledge.
+In line with structure planning, a clear and concise homepage is designed in line with standard expectations, linking immediately to all parts of the site.  Each page also allows logical progression to effectively build knowledge.
 
 Each page broken down into small sections for easy digest of information.
 
 Very basic 404 redirect page with a link to home to prevent stuck users.
 
 #### Wireframes
+
+##### Original
 1. [Mobile](assets/documents/curls-mobile.pdf) 375px
-2. [Tablet](assets/documents/curls-tablet.pdf) 768px
-3. [PC/Laptop](assets/documents/curls-pc.pdf) 1200px
+1. [Tablet](assets/documents/curls-tablet.pdf) 768px
+1. [PC/Laptop](assets/documents/curls-pc.pdf) 1200px
+
+##### Final
+1.  [Mobile](assets/documents/) 375px
+1.  [Tablet](assets/documents/) 768px
+1.  [PC/Laptop](assets/documents/curls-pc.pdf) 1200px
+
+##### Summary of Changes
+The most notable change between the original wireframes and the final version is the footer.  The original design felt very disconnected to the flow of the page, and almost unfinished when viewed in its final environment.  Other top-level changes are the exchange of in-line text links for bolder, more obvious call to action buttons, the use of collapsed nav in hamburger button format on tablet and the elimination of underlines, horizontal and vertical rules.
+
+*  The four panel structure of the footer was revised, in particular eliminating the contact section.  This had contained a telephone number and email address and a link to a contact form modal.  No address was included as it is not relevant to the content.  The phone number and email address were vulnerable to misuse, either by bots or malicious users and the Contact Us page was so readily accessible that the modal was deemed surplus to requirements.  It was also felt that the modal dod not fit well with the overall feel of the site.
+*  The links to the next pages were somewhat lost in the volume of content on each page, particularly the homepage which has snippets of information about each following segment.  As such, these were changed to bolder, clearer buttons which focus the user per the intent of the designer, which is to move onto the next learning section.
+*  The navigation bar link items proved to be too large for the tablet view when spacing between elements was optimised.  As such, the decision was made to collapse to a hamburger menu at tablet, rather than make the lements fit and appear squashed.
+*  All pages have a lot of content, in line with the nature of the website.  The inclusion of decorative elements cluttered the pages and made for an uncomfortable viewing experience.
+*  Source data links have been acknowledged in the README, the majority of content is knowledge held by the creator, verified by the external sources.  The links made the pages very bitty and unattractive.
+
+###### Changes Specific to Home Page
+*  Section 2 was very busy, so the background image was eliminated and the content condensed into a smaller number of sections.
+*  Section 4 was very spaced out and clunky.  The arrangement made it appear dated.  This was tweaked slightly to make use of Bootstrap cards to present the information in a more contained manner.
+*  Added a Get Started section, as user was otherwise left at the end of the page with a link only to the last section.
+
+###### Changes Specific to Science Page
+*  None.
+
+###### Changes Specific to Types Page
+*  Section 1 did not follow a logical reading order of left to right and then down, and was amended as such.
+
+###### Changes Specfic to Actions Page
+*  Section 2 contains a vast amount of content which was overwhelming, particularly on tablet and mobile.  A Bootstrap Accordion component was used to separate the text into digestible segments.  A video was embedded here to help further break up the textual content.
+
+###### Changes Specific to More Page
+*  None.
+
+###### Changes Specific to Contact Page
+*  Remove Fieldset and Legend from form, page appeared cluttered and bitty as the appearance was very different to the other sections thorugh out the webpage.
 
 ### **Surface**
 
 #### Colours
-Haircare and beauty in general can be perceived as a feminine area of interest, when in reality it is simple self-care.  A selection of bright colours across the spectrum were chosen to give an androgynous feel and complement a plain white background.  The very simplistic design is to allow the information to speak for itself, as the main purpose of the website, and to keep the data easily digestible by the user.
+Haircare and beauty in general can be perceived as a feminine area of interest, when in reality it is simple self-care.  A selection of bright colours across the spectrum were chosen to give an androgynous feel, a nod to LGBTQA users and complement a plain white background.  The very simplistic design is to allow the information to speak for itself, as the main purpose of the website, and to keep the data easily digestible by the user.
 ![Colours option 1](assets/images/colors-opt-1.png)
 
-As an early design, it is noted that such a bold palette may not work in practice, and so a more muted set was selected as a more modern alternative.
-![Colours option 2](assets/images/colors-opt-2.png)
+Once put to use, it became apparent that the boldness of the chosen colours did not work well for large block sections on the web pages.  This slightly more muted palette was chosen to make using the site more comfortable but still keep a quirky, friendly feel.
+![Colours option 2](assets/images/colors-actual.png)
 
 #### Typography
 Three fonts are chosen for the website, all via Google Fonts.
