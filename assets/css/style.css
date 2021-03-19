@@ -89,17 +89,13 @@ a {
     padding: 0;
     position: fixed;
     top: 0;
-    background-color: #ffffff;
+    background-color: #ffffffc5;
 }
 
 .curls-nav .container-fluid {
     margin: 0;
     padding: 0;
 }
-
-/*.list-inline-item:not(:last-child) {
-    margin-right: 0;
-}*/
 
 ul {
     padding: 0;
@@ -115,35 +111,32 @@ ul {
     font-size: 36px;
     color: #000000;
     border-bottom: solid;
-    border-width: 2px;
-    border-color: #ffffff;
+    border-width: 3px;
+    border-color: #000000;
 }
 
 .logo:hover {
-    font-family: "Sunshiney", cursive;
-    font-size: 36px;
     color: #000000;
-    border-bottom: solid;
-    border-width: 2px;
+    border-width: 3px;
     border-color: #f947ff;
 }
 
 nav a {
     border-bottom: solid;
-    border-width: 2px;
-    border-color: #ffffff;
+    border-width: 3px;
+    border-color: #000000;
 }
 
 nav a:hover {
     border-bottom: solid;
-    border-width: 2px;
-    border-color: #000000;
+    border-width: 3px;
+    border-color: #ffffff;
 }
 
 ul#curls-nav-list a.curls-link {
     color: #000000;
     font-weight: 500;
-    padding: 8px 16px;
+    padding: 8px 24px;
 }
 
 a.selected {
