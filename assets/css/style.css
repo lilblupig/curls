@@ -113,6 +113,8 @@ ul {
     border-bottom: solid;
     border-width: 3px;
     border-color: #000000;
+    padding-left: 24px;
+    padding-right: 24px;
 }
 
 .logo:hover {
@@ -156,7 +158,7 @@ nav.curls-nav .curls-nav-toggler:hover {
     box-shadow: none;
     border-bottom: solid;
     border-width: 2px;
-    border-color: #00d9ff;
+    border-color: #000000;
     background-color: white;
 }
 
