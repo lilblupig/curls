@@ -81,30 +81,27 @@ a {
 
 /*-----------------------------------Nav-----------------------------------*/
 
-nav {
+.curls-nav {
     z-index: 2;
     font-family: "Delius Swash Caps", cursive;
     width: 100%;
     line-height: 2rem;
-}
-
-.navbar {
     padding: 0;
     position: fixed;
     top: 0;
     background-color: #ffffff;
 }
 
-.list-inline-item:not(:last-child) {
-    margin-right: 0;
-}
-
-ul {
+.curls-nav .container-fluid {
+    margin: 0;
     padding: 0;
 }
 
-nav .container-fluid {
-    margin: 0;
+/*.list-inline-item:not(:last-child) {
+    margin-right: 0;
+}*/
+
+ul {
     padding: 0;
 }
 
@@ -143,20 +140,17 @@ nav a:hover {
     border-color: #000000;
 }
 
-.navbar-light .navbar-nav .nav-link {
+ul#curls-nav-list a.curls-link {
     color: #000000;
     font-weight: 500;
+    padding: 8px 16px;
 }
 
-.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
-    color: #000000;
-}
-
-.navbar-light .navbar-nav .nav-link.active {
+a.selected {
     text-decoration: underline;
 }
 
-.navbar-light .navbar-toggler {
+nav.curls-nav .curls-nav-toggler {
     border: none;
     border-bottom: solid;
     border-width: 2px;
@@ -165,11 +159,7 @@ nav a:hover {
     padding: 9px 16px;
 }
 
-.navbar-light .navbar-toggler-icon {
-    background-image: url(../images/icons8-menu.svg);
-}
-
-.navbar-toggler:hover {
+nav.curls-nav .curls-nav-toggler:hover {
     box-shadow: none;
     border-bottom: solid;
     border-width: 2px;
@@ -177,12 +167,12 @@ nav a:hover {
     background-color: white;
 }
 
-.navbar-toggler:focus {
+nav.curls-nav .curls-nav-toggler:focus {
     box-shadow: none;
 }
 
-.navbar-nav .nav-link {
-    padding: 8px 16px;
+nav.curls-nav .curls-toggler-icon {
+    background-image: url(../images/icons8-menu.svg);
 }
 
 /*-----------------------------------Hero-----------------------------------*/
