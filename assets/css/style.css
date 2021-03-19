@@ -451,16 +451,16 @@ div.col-12.row {
 
 /*-----------------------------------Body-Contact----------------------------*/
 
-.form-control {
+.form-border {
     border-radius: 0;
 }
 
-.form-control:hover {
+.form-border:hover {
     border-color: #fcff54;
     box-shadow: 0 0 0 0.25rem rgb(252 255 84 / 25%)
 }
 
-.form-control:focus {
+.form-border:focus {
     border-color: #00d9ff;
     box-shadow: 0 0 0 0.25rem rgb(0 217 255 / 25%)
 }
