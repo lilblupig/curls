@@ -399,20 +399,20 @@ nav a:hover {
     height: 100%;
 }
 
-h2.accordion-header {
+h2.actions-acc-header {
     margin-top: 0;
 }
 
-.accordion-button:focus {
+.actions-acc-button:focus {
     border-color: #ffa947;
     box-shadow: 0 0 0 0.25rem rgb(255 255 255 / 25%)
 }
 
-.accordion-button:hover {
+.actions-acc-button:hover {
     background-color: #ffffff80;
 }
 
-.accordion-button:not(.collapsed) {
+.actions-acc-button:not(.collapsed) {
     color: #000000;
     background-color: #ffffff;
 }
