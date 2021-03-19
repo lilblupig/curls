@@ -286,10 +286,15 @@ You can find more information on cloning a repository from GitHub [here](https:/
 ### **Website Credits**
 
 #### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+The content used for the website is drawn directly from the knowledge of the creator.  This was checked to a number of sources to verify that it is still correct and current, which are shown below:
+* Science Page - Section 1 - [Lush Cosmetics](https://uk.lush.com/article/understanding-hair-structure)
+* Science Page - Section 2 - [Helix](https://helix.northwestern.edu.blog/2014/05/science-curls)
+* Types Page - Section 1 - [Allure](https://www.allure.com/gallery/curl-hair-type-guide/amp)
+* Types Page - Section 2 - [L'Oreal](https://www.lorealparisusa.com/beauty-magazine/hair-care/damaged-hair/hair-porosity.aspx)
+
 
 #### Media
-- The photos used in this site were obtained from ...
+* The photographs used for the website were obtained from 
 
 * The hamburger SVG was obtained from the website [Icons8](https://icons8.com/icons/set/hamburger)
 
