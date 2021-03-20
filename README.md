@@ -6,7 +6,7 @@ An easily accessible basic resource for people looking for information about hai
 
 Decades of straightening, blow-drying and otherwise taming or conatining curls have meant that information about curly haircare is thin on the ground, and what there is is very spread out.  This website aims to pull together all of the basic information a curly converter might need to get started, and then provide them with links for further reading should they need or want it.
 
-![Am I Responsive Image](assets/images/am-i-responsive.png)
+![Am I Responsive Image](assets/readme-images/am-i-responsive.png)
 
 # Index
 1. [UX](#ux)
@@ -155,10 +155,10 @@ The most notable change between the original wireframes and the final version is
 
 #### Colours
 Haircare and beauty in general can be perceived as a feminine area of interest, when in reality it is simple self-care.  A selection of bright colours across the spectrum were chosen to give an androgynous feel, a nod to LGBTQA users and complement a plain white background.  The very simplistic design is to allow the information to speak for itself as this is the main purpose of the website, and to keep the data easily digestible by the user.
-![Colours option 1](assets/images/colors-opt-1.png)
+![Colours option 1](assets/readme-images/colors-opt-1.png)
 
 Once put to use, it became apparent that the boldness of the chosen colours did not work well for large block sections on the web pages.  This slightly more muted palette was chosen to make using the site more comfortable but still keep a quirky, friendly feel.
-![Colours option 2](assets/images/colors-actual.png)
+![Colours option 2](assets/readme-images/colors-actual.png)
 
 #### Typography
 Three fonts are chosen for the website, all via Google Fonts.
@@ -166,7 +166,7 @@ Three fonts are chosen for the website, all via Google Fonts.
 2. A similar but easier to read cursive font for headings through the page, and for navigation links: "Delius Swash Caps"
 3. Finally, a simple sans-serif font for the body to facilitate easy reading.  Sans-serif fonts render well on lower resulution screens, and are generally considered more readable by those affected by dyslexia or similar reading difficulties: "Quicksand"
 
-![Example fonts](assets/images/typography.png)
+![Example fonts](assets/readme-images/typography.png)
 
 ## Features
 
@@ -223,19 +223,36 @@ This information is held in the file [TESTING.md](TESTING.md)
 
 ## Technologies Used
 
+### Languages
 * HTML5 is used to provide the basic structure of the website.
   * About: [HTML5 Wiki](https://en.wikipedia.org/wiki/HTML5)
   * Creator: [W3 Consortium](https://www.w3.org/)
 * CSS3 is used to provide most of the styling for the website.
   * About: [CSS3 Wiki](https://en.wikipedia.org/wiki/CSS)
   * Creator: [W3 Consortium](https://www.w3.org/)
-* Bootstrap5 is used to provide the grid functionality for uniform design, responsiveness and to enable the use of modal and hamburger menu.
-  * About: [Bootstrap Home](https://getbootstrap.com/)
-  * Creator: [Bootstrap History](https://getbootstrap.com/docs/5.0/about/overview/)
-* Google Fonts are used to provide the typography for the website.
-  * Link: [Google Fonts](https://fonts.google.com/)
-* Font Awesome is used to provide the icons for the website. (Version 4.7 is used to avoid the need to create "collections" which can be overwritten and therefore pose a risk to the site).
-  * Link: [Font Awesome - V4.7](https://fontawesome.com/v4.7.0/get-started/)
+* JavaScript elements are used via Boostrap and directly for modal validation.
+  * About: [JavaScript Home](https://www.javascript.com/)
+
+### Libraries & Frameworks
+* [Bootstrap 5](https://getbootstrap.com/) is used to provide the grid functionality for uniform design, responsiveness and to enable the use of modal and hamburger menu.
+* [Google Fonts](https://fonts.google.com/) are used to provide the typography for the website.
+* [Font Awesome](https://fontawesome.com/) is used to provide the icons for the website.
+* [jQuery](https://jquery.com/) is used to facilitate the modal validation sequence.
+
+### Tools
+* [Git](https://git-scm.com/)/[GitHub](https://github.com/) were used for version control and repository storage.
+* [GitPod](https://www.gitpod.io/) was the IDE used to write the project.
+* Chrome Dev Tools were used for specific responsiveness testing and drilling down into bug fixing.
+* Lighthouse was used for macro testing and identification of errors for rectification.
+* [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) was used to remove any remaining errors in CSS code.
+* [W3C HTML Validation Service](https://validator.w3.org/) was used to remove any remaining errors in HTML code.
+* [Responsively](https://responsively.app/) was used to explore responsiveness across various devices.
+
+### Other Resources
+* [Code Institute Full Template](https://github.com/Code-Institute-Org/gitpod-full-template)
+* [DailyMotion Aspect Preservation](https://faq.dailymotion.com/hc/en-us/articles/360022841393-How-to-preserve-the-player-aspect-ratio-on-a-responsive-page)
+* [101 Computing Favicons](https://www.101computing.net/html-how-to-add-a-favicon/)
+* JavaScript code snippet from [Anouk Smet](https://github.com/AnoukSmet)'s MS1, [Naturazy](https://github.com/AnoukSmet/Naturazy) written by [Simen Daehlin](https://github.com/Eventyret) to enable form validation and feedback to work appropriately.
 
 ## Deployment
 
@@ -246,10 +263,10 @@ The website was created using [GitPod](https://www.gitpod.io/). Version control 
 2. Sign in to GitHub.
 3. A list of repositories should display on the left of the page. Choose the appropriate repository: lilblupig/curls-ms1
 4. From the repository menu, choose Settings.
-![GitHub menu snip](assets/images/deploy-1.png)
+![GitHub menu snip](assets/readme-images/deploy-1.png)
 5. Scroll down the page to find the Pages section.
 6. From the first dropdown box, choose the Master branch, then click save.
-![GitHub Pages snip](assets/images/deploy-2.png)
+![GitHub Pages snip](assets/readme-images/deploy-2.png)
 7. The page will refresh, and the Pages section now shows a URL for the deployed site.
 8. Click the URL to view the deployed website.
 
@@ -263,13 +280,13 @@ There are slightly different approaches should you choose to use GitPod to clone
 4. Restart Chrome.
 5. In GitHub, find the [project repository](https://github.com/lilblupig/curls-ms1).
 6. From the repository menu, choose the green GitPod button.
-![GitPod button snip](assets/images/deploy-3.png)
+![GitPod button snip](assets/readme-images/deploy-3.png)
 7. A new GitPod workspace will open containing the project code.
 
 #### Cloning a Project into a Local IDE
 1. Navigate to the [GitHub Repository](https://github.com/lilblupig/curls-ms1).
 2. Choose the Code dropdown menu, and copy the URL.
-![GitHub code download snip](assets/images/deploy-4.png)
+![GitHub code download snip](assets/readme-images/deploy-4.png)
 3. Open your local IDE and then open a terminal.
 4. Set the current working directory to your preferred location for the cloned project.
 5. Type in "git clone " followed by the copied URL. Be sure to include a space between git clone and the url, then press enter.
@@ -295,6 +312,7 @@ The content used for the website is drawn directly from the knowledge of the cre
     * Actions Hero - [cottonbro](https://www.pexels.com/photo/woman-in-bathtub-with-water-4155482/)
     * More Hero - [cottonbro](https://www.pexels.com/photo/man-people-woman-coffee-5529908/)
     * Contact Hero - [Christina Morillo](https://www.pexels.com/photo/photography-of-woman-using-laptop-1181742/)
+    * 404 Hero - Sketch by creator
 
 * The diagrams used for the website were obtained from various places:
     * Science Hero - [By CSIRO](https://commons.wikimedia.org/w/index.php?curid=35489670), [Creative Commons licence](https://creativecommons.org/licenses/by/3.0), changes: Crop to include only human hair, remove merino wool fibre
@@ -307,17 +325,11 @@ The content used for the website is drawn directly from the knowledge of the cre
 
 * The hamburger SVG was obtained from the website [Icons8](https://icons8.com/icons/set/hamburger)
 
-#### Other Resources
-* This project was created using the following resources:
-  * [Code Institute Full Template](https://github.com/Code-Institute-Org/gitpod-full-template)
-  * [DailyMotion Aspect Preservation](https://faq.dailymotion.com/hc/en-us/articles/360022841393-How-to-preserve-the-player-aspect-ratio-on-a-responsive-page)
-  * [101 Computing Favicons](https://www.101computing.net/html-how-to-add-a-favicon/)
-
 #### Acknowledgements
 Thank yous in particular to:
 * Reuben Ferrante for mentoring the project.
-* Stephen Seagrave for early help with help on using custom style with Bootstrap.
-* Simon Daehlin for assistance with Font Awesome and Bootstrap CDNs.
+* Stephen Seagrave for early help on using custom style with Bootstrap.
+* Simen Daehlin for assistance with everything from Font Awesome and Bootstrap CDNs to contrast to JavaScript.
 
 ### **README Credits**
 
