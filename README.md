@@ -103,7 +103,7 @@ Third increment:
 * Add type/porosity table
 
 ### **Structure**
-* See Information Grouping [mind map here](documents/structure.pdf).
+* See Information Grouping [mind map here](assets/documents/structure.pdf).
 
 ### **Skeleton**
 In line with structure planning, a clear and concise homepage is designed in line with standard expectations, linking immediately to all parts of the site.  Each page also allows logical progression to effectively build knowledge.
@@ -288,12 +288,12 @@ You can find more information on cloning a repository from GitHub [here](https:/
 #### Content
 The content used for the website is drawn directly from the knowledge of the creator.  This was checked to a number of sources to verify that it is still correct and current, which are shown below:
 * Science Page - Section 1 - [Lush Cosmetics](https://uk.lush.com/article/understanding-hair-structure)
-* Science Page - Section 2 - [Helix](https://helix.northwestern.edu.blog/2014/05/science-curls)
+* Science Page - Section 2 - [Helix](https://helix.northwestern.edu/blog/2014/05/science-curls)
 * Types Page - Section 1 - [Allure](https://www.allure.com/gallery/curl-hair-type-guide/amp)
 * Types Page - Section 2 - [L'Oreal](https://www.lorealparisusa.com/beauty-magazine/hair-care/damaged-hair/hair-porosity.aspx)
 
 #### Media
-* The photographs used for the website were obtained from [Pexels.com](www.pexels.com):
+* The photographs used for the website were obtained from [Pexels.com](https://www.pexels.com/):
     * Home Hero - [Keira Burton](https://www.pexels.com/photo/multiracial-positive-male-and-female-students-using-smartphones-in-city-park-6146931/)
     * Types Hero - Composite image collated by creator from [Nataliya Vaitkevich](https://www.pexels.com/photo/photo-of-woman-looking-serious-4450401/), [Владимир Васильев](https://www.pexels.com/photo/woman-in-light-white-dress-in-forest-5003435/) and [Gift Habeshaw](https://www.pexels.com/photo/young-black-man-with-curly-hair-against-neon-cross-3905285/)
     * Actions Hero - [cottonbro](https://www.pexels.com/photo/woman-in-bathtub-with-water-4155482/)
@@ -313,7 +313,7 @@ The content used for the website is drawn directly from the knowledge of the cre
 
 #### Acknowledgements
 * This project was created using the following resources:
-  * [Code Institute Full Template](https://github.com/Code-Institute-Org/gitpod-full-template).
+  * [Code Institute Full Template](https://github.com/Code-Institute-Org/gitpod-full-template)
   * [DailyMotion Aspect Preservation](https://faq.dailymotion.com/hc/en-us/articles/360022841393-How-to-preserve-the-player-aspect-ratio-on-a-responsive-page)
   * [101 Computing Favicons](https://www.101computing.net/html-how-to-add-a-favicon/)
 
