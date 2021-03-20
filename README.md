@@ -26,7 +26,7 @@ Decades of straightening, blow-drying and otherwise taming or conatining curls h
       * [Contact](#contact)
       * [404](#404)
     * [Features for Future Implementation](#features-for-future-implementation)
-1. [Testing](#testing)
+1. [Testing and Development](#testing-and-development)
 1. [Technologies Used](#technologies-used)
 1. [Deployment](#deployment)
     * [Via GitPod](#deployment-of-the-page)
@@ -35,9 +35,13 @@ Decades of straightening, blow-drying and otherwise taming or conatining curls h
     * [Website](#website-credits)
     * [README](#readme-credits)
 
+Note, testing and development life cycle information can be found in separate documents:
+* [Testing](TESTING.md)
+* [Development](DEVELOPMENT.md)
+
 ## UX
 
-### Overview & Broad Design Choices
+### Overview and Broad Design Choices
 Adopters of curly specific haircare do tend to be female and younger, however this is rapidly changing as male grooming becomes more mainstream, and personal freedoms become more acceptable for all generations.  The users of this website therefore could be anybody, regardless of age or gender and the design is approached accordingly.
 *  Bright unisex colours are offset by classic, largely white sections and black/white text and details.
 *  Soft scrolling fonts are contrasted with sharp, angled corners and straight lines.
@@ -230,9 +234,11 @@ The smaller "hero" image is to allow the 404 error and an immediate redirection 
 1. Include GDPR information with regard to use of data submitted in the form etc.
 1. Gallery, possibly from user submissions.
 
-## Testing
+## Testing and Development
 
-This information is held in the file [TESTING.md](TESTING.md)
+This information is held in the following files:
+ * [Testing](TESTING.md)
+ * [Development](DEVELOPMENT.md)
 
 ## Technologies Used
 
@@ -246,7 +252,7 @@ This information is held in the file [TESTING.md](TESTING.md)
 * JavaScript elements are used via Boostrap and directly for modal validation.
   * About: [JavaScript Home](https://www.javascript.com/)
 
-### Libraries & Frameworks
+### Libraries and Frameworks
 * [Bootstrap 5](https://getbootstrap.com/) is used to provide the grid functionality for uniform design, responsiveness and to enable the use of modal and hamburger menu.
 * [Google Fonts](https://fonts.google.com/) are used to provide the typography for the website.
 * [Font Awesome](https://fontawesome.com/) is used to provide the icons for the website.
