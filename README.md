@@ -307,11 +307,17 @@ The content used for the website is drawn directly from the knowledge of the cre
 
 * The hamburger SVG was obtained from the website [Icons8](https://icons8.com/icons/set/hamburger)
 
-#### Acknowledgements
+#### Other Resources
 * This project was created using the following resources:
   * [Code Institute Full Template](https://github.com/Code-Institute-Org/gitpod-full-template)
   * [DailyMotion Aspect Preservation](https://faq.dailymotion.com/hc/en-us/articles/360022841393-How-to-preserve-the-player-aspect-ratio-on-a-responsive-page)
   * [101 Computing Favicons](https://www.101computing.net/html-how-to-add-a-favicon/)
+
+#### Acknowledgements
+Thank yous in particular to:
+* Reuben Ferrante for mentoring the project.
+* Stephen Seagrave for early help with help on using custom style with Bootstrap.
+* Simon Daehlin for assistance with Font Awesome and Bootstrap CDNs.
 
 ### **README Credits**
 
@@ -330,5 +336,9 @@ The content used for the website is drawn directly from the knowledge of the cre
   * Wireframes created with [Balsamiq](https://balsamiq.com/).
   * Colour mockups created with [Coolors](https://coolors.co/).
 
-#### Acknowledegments
+#### Other
   * Markdown basic taken from [Mastering Markdown](https://guides.github.com/features/mastering-markdown/).
+
+**This website was produced as an educational project with the Code Institute Full Stack Development course.**
+
+**Created by Amy Hacker.**
