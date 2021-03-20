@@ -427,11 +427,13 @@ div.col-12.row {
 }
 
 .where-next a {
-    color: #ffffff;
+    color: #000000;
+    font-weight: 600;
+    text-decoration: underline;
 }
 
 .where-next a:hover {
-    color: #696969;
+    color: #ffffff;
 }
 
 /* Body-Contact */
