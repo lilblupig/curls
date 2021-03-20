@@ -287,11 +287,12 @@ nav.curls-nav .curls-toggler-icon {
 }
 
 .further ol a {
-    color: #f947ff;
+    color: #000000;
+    font-weight: 600;
 }
 
 .further ol a:hover {
-    color: #696969;
+    color: #f947ff;
 }
 
 .more-card {
