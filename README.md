@@ -1,7 +1,6 @@
 # **Curls**
 
 ## **Overview**
----
 
 An easily accessible basic resource for people looking for information about haircare methods specific to curly hair. Changes in fashion and greater acceptance of individuality mean more people are able to wear naturally curly hair in a professional environment as well as in other situations in which it would have previously been considered inappropriate.
 
@@ -36,7 +35,6 @@ Decades of straightening, blow-drying and otherwise taming or conatining curls h
     * [README](#readme-credits)
 
 ## UX
----
 
 Adopters of curly specific haircare do tend to be female and younger, however this is rapidly changing as male grooming becomes more mainstream, and personal freedoms become more acceptable for all generations.  The users of this website therefore could be anybody, regardless of age or gender and the design is approached accordingly.
 *  Bright unisex colours are offset by classic, largely white sections and black/white text and details.
@@ -171,7 +169,6 @@ Three fonts are chosen for the website, all via Google Fonts.
 ![Example fonts](assets/images/typography.png)
 
 ## Features
----
 
 ### **Existing Features**
 Uniform design across all pages in line with conventional practice.  This incorporates:
@@ -221,11 +218,10 @@ A large image is shown at the top of the page to provide continuity with the res
 3. Add pages for type specific haircare products, possibly with sponsored links | Time constraints prevent addition of more in-depth pages at this time.  Lack of industry contacts prevent the addition of sponsored links.
 
 ## Testing
----
+
 This information is held in the file [TESTING.md](TESTING.md)
 
 ## Technologies Used
----
 
 * HTML5 is used to provide the basic structure of the website.
   * About: [HTML5 Wiki](https://en.wikipedia.org/wiki/HTML5)
@@ -242,7 +238,7 @@ This information is held in the file [TESTING.md](TESTING.md)
   * Link: [Font Awesome - V4.7](https://fontawesome.com/v4.7.0/get-started/)
 
 ## Deployment
----
+
 The website was created using [GitPod](https://www.gitpod.io/). Version control was undertaken by committing to [Git](https://git-scm.com/) and pushing to [GitHub](https://github.com/) using the functions within GitPod.
 
 ### **Deployment of the Page**
@@ -282,7 +278,7 @@ There are slightly different approaches should you choose to use GitPod to clone
 You can find more information on cloning a repository from GitHub [here](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository).
 
 ## Credits
----
+
 ### **Website Credits**
 
 #### Content
