@@ -7,7 +7,7 @@ body {
     font-weight: 500;
 }
 
-/*-----------------------------------Colours------------------------------*/
+/* Colours */
 
 .white {
     background-color: white;
@@ -33,7 +33,7 @@ body {
     background-color: #f947ff;
 }
 
-/*-----------------------------------Fonts & Headers----------------------*/
+/* Fonts & Headers */
 
 h1 {
     font-family: "Sunshiney", cursive;
@@ -79,7 +79,7 @@ a {
     box-shadow: 0 0 0 0.25rem rgb(0 0 0 / 25%)
 }
 
-/*-----------------------------------Nav-----------------------------------*/
+/* Nav */
 
 .curls-nav {
     z-index: 2;
@@ -170,7 +170,7 @@ nav.curls-nav .curls-toggler-icon {
     background-image: url(../images/icons8-menu.svg);
 }
 
-/*-----------------------------------Hero-----------------------------------*/
+/* Hero */
 
 .hero-container-home {
     height: 100vh;
@@ -274,7 +274,7 @@ nav.curls-nav .curls-toggler-icon {
     z-index: 1;
 }
 
-/*-----------------------------------Body-Home------------------------------*/
+/* Body-Home */
 
 .weapons, .weapons h3 {
     text-align: left;
@@ -304,7 +304,7 @@ nav.curls-nav .curls-toggler-icon {
     padding: 0;
 }
 
-/*-----------------------------------Body-Science---------------------------*/
+/* Body-Science */
 
 #diagram-shaft img {
     width: 80%;
@@ -327,7 +327,7 @@ nav.curls-nav .curls-toggler-icon {
     margin-bottom: 1rem;
 }
 
-/*-----------------------------------Body-Types-----------------------------*/
+/* Body-Types */
 
 .type-abc {
     list-style-type: lower-alpha; 
@@ -363,14 +363,14 @@ nav.curls-nav .curls-toggler-icon {
     margin-bottom: 1rem;
 }
 
-/*-----------------------------------Body-Actions---------------------------*/
+/* Body-Actions */
 
 .actions-droplet {
     color: orange;
     margin-bottom: 1rem;
 }
 
-/*--- Acknowledment video wrapper: Daily Motion https://faq.dailymotion.com/hc/en-us/articles/360022841393-How-to-preserve-the-player-aspect-ratio-on-a-responsive-page ---*/
+/* Acknowledgement video wrapper: Daily Motion https://faq.dailymotion.com/hc/en-us/articles/360022841393-How-to-preserve-the-player-aspect-ratio-on-a-responsive-page */
 .video-wrapper {
     position: relative;
     padding-bottom: 56.25%;
@@ -415,7 +415,7 @@ div.col-12.row {
     margin-left: 0;
 }
 
-/*-----------------------------------Body-More------------------------------*/
+/* Body-More */
 
 .more i {
     font-size: 4rem;
@@ -434,7 +434,7 @@ div.col-12.row {
     color: #696969;
 }
 
-/*-----------------------------------Body-Contact----------------------------*/
+/* Body-Contact */
 
 .form-border {
     border-radius: 0;
@@ -450,7 +450,7 @@ div.col-12.row {
     box-shadow: 0 0 0 0.25rem rgb(0 217 255 / 25%)
 }
 
-/*-----------------------------------Body-404---------------------------------*/
+/* Body-404 */
 
 .not-found {
     height: 40vh;
@@ -462,7 +462,7 @@ div.col-12.row {
     height: 60vh;
 }
 
-/*-----------------------------------Footer---------------------------------*/
+/* Footer */
 
 footer {
     background-color: #ffffff;
