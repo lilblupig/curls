@@ -278,7 +278,7 @@ Details of any persistent or difficult bugs, and any bugs which remain unresolve
 
 ### **Fixed Bugs**
 
-#### Split Navigation Bar/menu
+#### Split Navigation Bar/Menu
 From the outset, it was felt that the Contact Us link in the nav should be separate from the other elements.  The other elements are all part of a logical progression and are primarily designed to deliver information, which the Contact page is not.  Additionally, the Contact page should be immediately identifiable and as the page grows in content, could be lost amongst the volume.
 
 Trials with Bootstrap Grid worked really well, but it became apparent that the nav element and appropriate Bootstrap classes would be much better for accessibility and required for collapse to hamburger.  The Bootstrap nav components seem to work very differently from the rest of the grid.
@@ -311,6 +311,8 @@ The modal code classes and ID's were updated and the button type switched back t
 
 The code was copied into the contact page for this project (attributed in code and in README), and after much, much surmising and guessing the classes and ID's were aligned with those in this project but the script still didn't work.  Lighthouse displayed an Uncaught Reference Error, after much fruitless manipulation of classes and ID's, it was realised that a) there was no link to the library that the script required to work and b) the script had to sit beneath this library link in the HTML.
 
+![Modal Error](assets/readme-images/modal-error.png)
+
 The form now validates properly, and the modal only displays when appropriate.
 
 ### **Remaining Bugs**
@@ -319,3 +321,10 @@ The form now validates properly, and the modal only displays when appropriate.
 
 The only known remaining bug in the website is that the hamburger menu transition animation appears to leave behind the Contact Us link when closing, just for a brief moment.  It does not affect the use of the website, but does affect what is an otherwise smooth and pleasant experience.  The creator needs to learn much more about transitions and possibly JavaScript to attempt to fix the bug.  It is likely that it relates to the use of position: absolute for the positioning of the Contact Us element of the nav.
 
+![Menu Transition Bug Image](assets/readme-images/menu-transition-bug.png)
+
+The image above shows the brief moment the Contact Us link is left behind by the menu transition.
+
+Testing completed 21/03/2021 - AKH
+
+[Return to Top](#curls)
