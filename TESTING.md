@@ -67,12 +67,12 @@ The project has been assessed throughout development using [Lighthouse](https://
 
 ## Manual Testing
 
-### **Navigation bar**
+### **Navigation Bar**
 
 **Intent** - a sticky navbar which collapses to hamburger on mobile.  Contact Us section should display clearly, separate from other elements in both nav bar and hamburger menu.
 
 * Check that all links are valid and link to the appropriate page.
-* Check logo alt displays on hover.
+* Check logo alt displays on hover (added title attribute).
 * Check that hover effect occurs correctly for each navigation section.
 * Check that active class is applied correctly for current page.
 * Resize to mobile/tablet and check that navigation bar collapses to hamburger.
