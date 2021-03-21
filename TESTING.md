@@ -299,4 +299,7 @@ The form now validates properly, and the modal only displays when appropriate.
 
 ### **Remaining Bugs**
 
-#### Hamburger collapse transition
+#### Hamburger Collapse Transition
+
+The only known remaining bug in the website is that the hamburger menu transition animation appears to leave behind the Contact Us link, just for a brief moment.  It does not affect the use of the website, but does affect what is an otherwise smooth and pleasant experience.  The creator needs to learn much more about transitions and possibly JavaScript to attempt to fix the bug.  It is likely that it relates to the use of position: absolute for the positioning of the Contact Us element of the nav.
+
