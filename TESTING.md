@@ -26,18 +26,25 @@ The project has been assessed throughout development using [Lighthouse](https://
 ### **Client Stories Testing**
 1. As a new user, I want to quickly determine if the website contains information I need, so that I know quickly whether to stay on the page.
     1. The navigation bar is shown on every page with descriptive headings.
-    1. The homepage has short summaries of each section.
+    1. The homepage has short summaries of each section including an overall synopsis.
+    ![User story 1 screenshot](assets/readme-images/user-story-1.png)
 1. As a new user, I want to easily determine and navigate to a point on the website which is appropriate for my existing knowledge, so that I do not waste time.
     1. The navigation bar is shown on every page with descriptive headings.
     1. The homepage has short summaries of each section.
+    ![User story 2 screenshot](assets/readme-images/user-story-2.png)
 1. As a new user, I want to learn about basic techniques that I can use right away, so that I can start putting research into action.
-    1. The website is structured such that the user works through the pages Home > Science > Types > Actions.
+    1. The website is structured such that the user works through the pages Home > Science > Types > Actions, and the Actions page contains basic technique information.
+    ![User story 3 screenshot](assets/readme-images/user-story-3.png)
 1. As a returning user, I want to determine my hair type and porosity, so that I can tailor the techniques I learned before.
     1. The user can navigate to the Types page directly from any page on the website.
+    ![User story 4 screenshot](assets/readme-images/user-story-4.png)
 1. As a returning user, I want to be able to easily contact the site owners with questions, so that I can obtain tailored information or troubleshoot issues.
     1. There is a Contact page link in the Navigation bar on every page, shown separately from the rest of the nav.
+    1. The contact form is as simple as possible.
+    ![User story 5 screenshot](assets/readme-images/user-story-5.png)
 1. As a frequent user, I want to be able to navigate quickly and easily to the relevant part of the website which contains the information I need, so that I can quickly fulfil the reason for my visit.
-    1. All sections of the website are clearly linked to from the Navigation bar which is present on every page.
+    1. All sections of the website are clearly linked to from the Navigation bar which is present on every page, either as shown on PC or in hamburger format.
+    ![User story 6 screenshot](assets/readme-images/user-story-6.png)
 
 ### **Manual Testing**
 
