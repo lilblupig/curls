@@ -148,6 +148,25 @@ These items are specific to each individual page.
 
 **Verdict** - PASS
 
+#### Science
+
+**Intent** - Provide information in a beginner friendly format about the structure of hair and how it affects the degree of curl.  Information should be displayed in small digestible segments and supported by diagrams.
+
+* All text sections and icons display correctly across tested device widths.
+* All buttons display user feedback on hover.
+* All internal links navigate to the correct page.
+* There were div alignement issues in both section 1 and 2 as a result of incorrectly applied Boostrap grid classes, this has been corrected.
+* A coloured icon is displayed between text segments in section 1 on mobile to break up the large amount of text.  As expected, this does not display on tablet or PC.
+
+**Result** - The page displays as expected across all tested device widths and all links behave correctly.  All user feedback is as expected.  There is no distortion of sections on mobile, tablet or PC.
+
+**Verdict** - PASS
+
+
+
+
+
+
 
 Embedded Video (Actions page only)
   * Check that iframe displays correctly without squashing and is responsive to all device widths.
