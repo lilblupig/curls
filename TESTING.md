@@ -22,10 +22,15 @@ A plan and log for testing the website, this is a manual testing plan due to the
 
 ## Validation Testing
 The project code has been passed through the following code validators:
-* [HTML Code Validator](https://validator.w3.org/)
-* [CSS Code Validator](https://jigsaw.w3.org/css-validator/)
+* [HTML Code Validator](https://validator.w3.org/) (all pages were checked)
+![HTML Validator result](assets/readme-images/html-validation.png)
 
-The project has been assessed throughout development using [Lighthouse](https://developers.google.com/web/tools/lighthouse).
+* [CSS Code Validator](https://jigsaw.w3.org/css-validator/) (one warning - external stylesheets are not checked)
+![CSS Validator result](assets/readme-images/css-validation.png)
+![CSS Validator warning](assets/readme-images/css-validation-warning.png)
+
+* The project has been assessed throughout development using [Lighthouse](https://developers.google.com/web/tools/lighthouse).
+![Lighthouse Ratings](assets/readme-images/lighthouse-curls.png)
 
 ## Logic Error Testing
 1. Check that script to determine form validation and success feedback has no errors.

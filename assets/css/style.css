@@ -500,8 +500,7 @@ footer {
 
 .footer-card {
     height: 90px;
-    padding-top: calc(var(--bs-gutter-x)/ 3);
-    
+    padding-top: 12px;  
 }
 
 .instagram {
