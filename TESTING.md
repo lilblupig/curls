@@ -31,8 +31,15 @@ The project has been assessed throughout development using [Lighthouse](https://
     * Script initially triggered invalid reference errors in Lighthouse and would not display.  Some experimentation determined that the script needed to be included after the link to the library.  As a beginner developer, JavaScript concepts are currently unknown and there is potential for further issues with this.
     * (See also [bugs](#bugs) section).
 1. Check all pages for appropriate Bootstrap grid component ordering.
-    * 
-    * Appropriate grid component ordering or hierarchy was the source of a number of display bugs throughout development, as such, most of these were fixed working through the project.
+    * Hero boilerplate - missing col-12 in <p> tag on all pages.
+    * Home page - missing col-12 in div on rows 172/215/229.
+    * Science page - section 1 had compenents without correct hierarchy.
+    * Science page - missing col-12 in div on row 105.
+    * Types page - no missing bootstrap classes but indentation corrected in section 1.
+    * Actions page - added row and col-12 to section 3 on rows 223/224.
+    * Actions page - also indentation corrected in section 2.
+    * More page - no issues.
+    * Contact page - missing col-12 on row 106.
     * (See also [bugs](#bugs) section).
 
 ### **Client Stories Testing**
