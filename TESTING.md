@@ -213,6 +213,22 @@ Accordion
 
 ---
 
+#### More Resources
+
+**Intent** - Highlight that nothing is considered absolute in the curly haircare world by brifly discussing some of the biggest sources of conflict.  Provide links to further reading to help user continue research. All items delivered in small segments for ease of reading.
+
+* All text sections and icons display correctly across tested device widths.
+* Coloured icons used to break up the text on mobile and tablet correctly do not display on PC, and an icon used on PC correctly does not display on tablet or mobile.
+* All buttons and links display user feedback on hover.
+* All internal links navigate to the correct page.
+* All external links navigate to the correct page in a new tab.
+* User is guided to Contact page at the end of the section.
+
+**Result** - The page displays as expected across all tested device widths and all links behave correctly.  All user feedback is as expected.  There is no distortion of sections on mobile, tablet or PC.
+
+**Verdict** - PASS
+
+---
 
 
 
