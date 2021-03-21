@@ -36,9 +36,8 @@ Decades of straightening, blow-drying and otherwise taming or conatining curls h
     * [Website](#website-credits)
     * [README](#readme-credits)
 
-Note, testing and development life cycle information can be found in separate documents:
+Note, testing information can be found in a separate document:
 * [Testing](TESTING.md)
-* [Development](DEVELOPMENT.md)
 
 ## UX
 
@@ -56,7 +55,7 @@ Adopters of curly specific haircare do tend to be female and younger, however th
 1. As a returning user, I want to be able to easily contact the site owners with questions, so that I can obtain tailored information or troubleshoot issues.
 1. As a frequent user, I want to be able to navigate quickly and easily to the relevant part of the website which contains the information I need, so that I can quickly fulfil the reason for my visit.
 
-These stories are addressed fully in the [Testing](testing.md) document.
+These stories are addressed fully in the [Testing](TESTING.md) document.
 
 ### **Strategy**
 This website is for individuals looking for information to help them decide whether curly haircare is for them, and if it is, identify the characteristics of their hair and what their first steps might be.
@@ -412,8 +411,7 @@ The content used for the website is drawn directly from the knowledge of the cre
     * Science Hair Follicle Diagram - [By HairFollicle](https://commons.wikimedia.org/w/index.php?curid=6910143), Creative Commons Licence
     * Types Hair Typing Diagrams x 4 - made by creator in [Google Keep](https://support.google.com/keep/answer/6395656?co=GENIE.Platform%3DDesktop&hl=en) notes 
 
-* The embedded video used in the Actions page is from YouTube:
-    * [Manes By Mell](https://www.youtube.com/watch?v=Fk-pLSxYPh8&t=1s)
+* The embedded video used in the Actions page is from YouTube: [Manes By Mell](https://www.youtube.com/watch?v=Fk-pLSxYPh8&t=1s)
 
 * The hamburger SVG was obtained from the website [Icons8](https://icons8.com/icons/set/hamburger)
 
