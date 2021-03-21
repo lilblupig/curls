@@ -255,6 +255,22 @@ Contact Us Form
 **Verdict** - PASS
 
 ---
+#### 404
+
+**Intent** - Catch users who would normally encounter a browser generated 404 page, and redirect them back to the website as cleanly as possible.
+
+* All text sections display correctly across tested device widths.
+* All buttons and links display user feedback on hover.
+* All internal links navigate to the correct page.
+* User is guided back to the home page.
+* Mistyped url for website to ensure 404 page displays in such situations.
+* Deliberately broke page link to ensure 404 page will display in this instance too.
+
+**Result** - The page displays as expected across all tested device widths and all links behave correctly.  All user feedback is as expected.  There is no distortion of sections on mobile, tablet or PC.
+
+**Verdict** - PASS
+
+---
 
 ## Bugs
 
@@ -301,5 +317,5 @@ The form now validates properly, and the modal only displays when appropriate.
 
 #### Hamburger Collapse Transition
 
-The only known remaining bug in the website is that the hamburger menu transition animation appears to leave behind the Contact Us link, just for a brief moment.  It does not affect the use of the website, but does affect what is an otherwise smooth and pleasant experience.  The creator needs to learn much more about transitions and possibly JavaScript to attempt to fix the bug.  It is likely that it relates to the use of position: absolute for the positioning of the Contact Us element of the nav.
+The only known remaining bug in the website is that the hamburger menu transition animation appears to leave behind the Contact Us link when closing, just for a brief moment.  It does not affect the use of the website, but does affect what is an otherwise smooth and pleasant experience.  The creator needs to learn much more about transitions and possibly JavaScript to attempt to fix the bug.  It is likely that it relates to the use of position: absolute for the positioning of the Contact Us element of the nav.
 
