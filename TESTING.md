@@ -9,14 +9,15 @@ A plan and log for testing the website, this is a manual testing plan due to the
 1. [Logic Error Testing](#logic-error-testing)
 1. [Client Stories Testing](#client-stories-testing)
 1. [Manual Testing](#manual-testing)
-    * [Plan](#plan-for-each-page)
-    * [Home](#home)
-    * [Science](#science)
-    * [Types](#types)
-    * [Actions](#actions)
-    * [More Info](#more-info)
-    * [Contact](#contact)
-    * [404](#404)
+    * [Common Elements](#common-elements)
+    * [Page Specific Sections](#page-specific-sections)
+      * [Home](#home)
+      * [Science](#science)
+      * [Types](#types)
+      * [Actions](#actions)
+      * [More Info](#more-info)
+      * [Contact](#contact)
+      * [404](#404)
 1. [Bugs](#bugs)
 
 ## Validation Testing
@@ -67,7 +68,13 @@ The project has been assessed throughout development using [Lighthouse](https://
 
 ## Manual Testing
 
-### **Navigation Bar**
+### **Common Elements**
+
+These components are present on every page, and each page has been tested.
+
+---
+
+#### Navigation Bar
 
 **Intent** - a sticky navbar which collapses to hamburger on mobile.  Contact Us section should display clearly, separate from other elements in both nav bar and hamburger menu.
 
@@ -82,39 +89,65 @@ The project has been assessed throughout development using [Lighthouse](https://
 
 **Verdict** - PASS
 
-### **Hero image**
+---
+
+#### Hero Images
 
 **Intent** - a full width image relevant to the page content, different for each page.  Primary purpose, to elicit a positive emotional response from the user.  The image should display correctly on all device sizes.  The image should display 100% height on the home page, 80% height on susequent pages to allow peep and 70% on the 404 page to display redirect information.
 
-  * Check image fills the viewport/80/70 depending on page.
-  * Resize to mobile/tablet and check that image still displays the full window height without distortion.
-  * Check text remains centered with no overflow at mobile/tablet.
+* Check image fills the viewport/80/70 depending on page.
+* Resize to mobile/tablet and check that image still displays the full window height without distortion.
+* Check text remains centered with no overflow at mobile/tablet.
 
 **Result** - all seven images are fully responsive across various device types and widths, with no distortion or truncation.  The view height for each page is as expected.
 
 **Verdict** - PASS
 
-### **Footer**
+---
+
+#### Footer
 
 **Intent** - The footer should be reflective of the design of the nav to bookend each page and provide familiarity to the user.  This helps with intuitive learning.  The footer should display as two side by side sections on PC and tablet, then appear one beneath the other on mobile.  Social media links should open in new tabs and provide user feedback when hovered over.
 
-  * Check that footer appears in two equal sections.
-  * Check social media icons display correctly, and show feedback behaviour on hover.
-  * Check that Social links open in new tabs to correct locations.
-  * Resize to tablet and check for text overflow issues.
-  * Resize to mobile and check that sections wrap neatly below one another.
+* Check that footer appears in two equal sections.
+* Check social media icons display correctly, and show feedback behaviour on hover.
+* Check that Social links open in new tabs to correct locations.
+* Resize to tablet and check for text overflow issues.
+* Resize to mobile and check that sections wrap neatly below one another.
 
 **Result** - Footer has plain black and white design with pops of colour from the social links.  This ties it to the header without distracting from the page content.  The responsive design behaves as expected across tested device widths.  Social media links open in new tabs, and display user feedback when hovered over.
 
 **Verdict** - PASS
 
-### **Page specific sections**
-  * Check all areas of text align appropriately, horizontally and vertically.
-  * Check that behaviour is correct for mobile/tablet.
-  * Check that any links, buttons or fields show feedback behaviour on hover.
-  * Check that any links navigate to correct pages.
-  * Check that any external links open in a new tab, to the correct place.
-  * Check that any icons do not overflow into text on mobile/tablet.
+---
+
+### **Page Specific Sections**
+
+These items are specific to each individual page.
+
+#### Basic Plan for Body Sections
+* Check all areas of text align appropriately, horizontally and vertically.
+* Check that behaviour is correct for mobile/tablet.
+* Check that any links, buttons or fields show feedback behaviour on hover.
+* Check that any links navigate to correct pages.
+* Check that any external links open in a new tab, to the correct place.
+* Check that any icons do not overflow into text on mobile/tablet.
+
+#### Home
+
+**Intent** - Provide a brief summary of the entire website in section one, followed by summaries for each page in subsequent sections, with links to the appropriate page.  The final section takes the user to the first page in a logical progression through the website.  Sections should be fully responsive and display clearly on devices of all sizes.
+
+* All text sections and icons display correctly across tested device widths.
+* All buttons and links display user feedback on hover.
+* All internal links navigate to the correct page.
+* All external links navigate to the correct page in a new tab.
+* There was icon overflow on tablet as a result of incorrectly applied Boostrap grid classes, this has been corrected.
+* Center text area from section 1 is correctly not displayed on tablet, and displays correctly on mobile and PC.
+
+**Result** - The page displays as expected across all tested device widths and all links behave correctly.  All user feedback is as expected.  There is no distortion of sections on mobile, tablet or PC.
+
+**Verdict** - PASS
+
 
 Embedded Video (Actions page only)
   * Check that iframe displays correctly without squashing and is responsive to all device widths.
