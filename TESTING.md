@@ -6,6 +6,7 @@ A plan and log for testing the website, this is a manual testing plan due to the
 
 # Index
 1. [Validation Testing](#validation-testing)
+1. [Logic Error Testing](#logic-error-testing)
 1. [Client Stories Testing](#client-stories-testing)
 1. [Manual Testing](#manual-testing)
     * [Plan](#plan-for-each-page)
@@ -15,6 +16,8 @@ A plan and log for testing the website, this is a manual testing plan due to the
     * [Actions](#actions)
     * [More Info](#more-info)
     * [Contact](#contact)
+    * [404](#404)
+1. [Bugs](#bugs)
 
 ### **Validation Testing**
 The project code has been passed through the following code validators:
@@ -22,6 +25,15 @@ The project code has been passed through the following code validators:
 * [CSS Code Validator](https://jigsaw.w3.org/css-validator/)
 
 The project has been assessed throughout development using [Lighthouse](https://developers.google.com/web/tools/lighthouse).
+
+### **Logic Error Testing**
+1. Check that script to determine form validation and success feedback has no errors.
+    * Script initially triggered invalid reference errors in Lighthouse and would not display.  Some experimentation determined that the script needed to be included after the link to the library.  As a beginner developer, JavaScript concepts are currently unknown and there is potential for further issues with this.
+    * (See also [bugs](#bugs) section).
+1. Check all pages for appropriate Bootstrap grid component ordering.
+    * 
+    * Appropriate grid component ordering or hierarchy was the source of a number of display bugs throughout development, as such, most of these were fixed working through the project.
+    * (See also [bugs](#bugs) section).
 
 ### **Client Stories Testing**
 1. As a new user, I want to quickly determine if the website contains information I need, so that I know quickly whether to stay on the page.
