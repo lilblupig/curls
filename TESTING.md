@@ -230,19 +230,31 @@ Accordion
 
 ---
 
+#### Contact Us
 
+**Intent** - Encourage the user to get in touch with the owners, and make it as easy as possible to do so.
 
-Contact Us Form (Contact Us page only)
-  * Check form contents align nicely and that there is no overflow of content.
-  * Check fields display correctly on mobile/tablet.
-  * Check placeholder text displays in fields.
-  * Check fields and submit button display feedback on hover.
-  * Check fields display feedback on focus.
-  * Try to submit blank form, check error messages display with information.
-  * Try to submit email in incorrect format, check error message displays with information.
-  * Try to submit form without question, check error message displays.
-  * Submit correctly completed form, receive success modal.
-  * Check modal information centers pleasingly with no overflow on all device widths.
+* All text sections display correctly across tested device widths.
+* All buttons display user feedback on hover.
+* All internal links navigate to the correct page.
+
+Contact Us Form
+* Form contents align nicely and that there is no overflow of content.
+* Fields display correctly on mobile/tablet and PC.
+* Placeholder text displays in fields.
+* Fields and submit button display feedback on hover.
+* Fields display feedback on focus.
+* Try to submit blank form, error messages display with information.
+* Try to submit email in incorrect format, error message displays with information.
+* Try to submit form without question, error message displays with information.
+* Submit correctly completed form, receive success modal.
+* Modal information centers correctly with no overflow on all device widths.
+
+**Result** - The page displays as expected across all tested device widths and all links behave correctly.  All user feedback is as expected.  Form validation works properly, with successful submission notification only shown when all fields are completed.  There is no distortion of sections on mobile, tablet or PC.
+
+**Verdict** - PASS
+
+---
 
 ## Bugs
 
