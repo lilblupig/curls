@@ -13,10 +13,10 @@ A plan and log for testing the website, this is a manual testing plan due to the
     * [Page Specific Sections](#page-specific-sections)
       * [Home](#home)
       * [Science](#science)
-      * [Types](#types)
+      * [Hair Types](#hair-types)
       * [Actions](#actions)
-      * [More Info](#more-info)
-      * [Contact](#contact)
+      * [More Resources](#more-resources)
+      * [Contact Us](#contact-us)
       * [404](#404)
 1. [Bugs](#bugs)
 
@@ -133,6 +133,8 @@ These items are specific to each individual page.
 * Check that any external links open in a new tab, to the correct place.
 * Check that any icons do not overflow into text on mobile/tablet.
 
+---
+
 #### Home
 
 **Intent** - Provide a brief summary of the entire website in section one, followed by summaries for each page in subsequent sections, with links to the appropriate page.  The final section takes the user to the first page in a logical progression through the website.  Sections should be fully responsive and display clearly on devices of all sizes.
@@ -148,6 +150,8 @@ These items are specific to each individual page.
 
 **Verdict** - PASS
 
+---
+
 #### Science
 
 **Intent** - Provide information in a beginner friendly format about the structure of hair and how it affects the degree of curl.  Information should be displayed in small digestible segments and supported by diagrams.
@@ -162,7 +166,23 @@ These items are specific to each individual page.
 
 **Verdict** - PASS
 
+---
 
+#### Hair Types
+
+**Intent** - Provide information about the classification of curl types, and strand porosity, building on the information from the Science page.   Information should also be displayed in small digestible segments and supported by diagrams.
+
+* All text sections and images display correctly across tested device widths.
+* All buttons display user feedback on hover.
+* All internal links navigate to the correct page.
+* There were div alignement issues in section 1, particularly with the diagrams, as a result of incorrectly applied Boostrap grid classes, this has been corrected.
+* Numbered sections wrap correctly from linear on mobile to side by side on tablet and PC.
+
+**Result** - The page displays as expected across all tested device widths and all links behave correctly.  All user feedback is as expected.  There is no distortion of sections on mobile, tablet or PC.
+
+**Verdict** - PASS
+
+---
 
 
 
