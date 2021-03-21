@@ -95,11 +95,18 @@ The project has been assessed throughout development using [Lighthouse](https://
 **Verdict** - PASS
 
 ### **Footer**
+
+**Intent** - The footer should be reflective of the design of the nav to bookend each page and provide familiarity to the user.  This helps with intuitive learning.  The footer should display as two side by side sections on PC and tablet, then appear one beneath the other on mobile.  Social media links should open in new tabs and provide user feedback when hovered over.
+
   * Check that footer appears in two equal sections.
   * Check social media icons display correctly, and show feedback behaviour on hover.
   * Check that Social links open in new tabs to correct locations.
   * Resize to tablet and check for text overflow issues.
   * Resize to mobile and check that sections wrap neatly below one another.
+
+**Result** - Footer has plain black and white design with pops of colour from the social links.  This ties it to the header without distracting from the page content.  The responsive design behaves as expected across tested device widths.  Social media links open in new tabs, and display user feedback when hovered over.
+
+**Verdict** - PASS
 
 ### **Page specific sections**
   * Check all areas of text align appropriately, horizontally and vertically.
