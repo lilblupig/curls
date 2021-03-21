@@ -78,14 +78,21 @@ The project has been assessed throughout development using [Lighthouse](https://
 * Resize to mobile/tablet and check that navigation bar collapses to hamburger.
 * Expand hamburger menu and check all sections present, and displaying correctly.
 
-**Result** - the navigation bar works as planned, being fully responsive across all device widths.  It was decided to collapse to hamburger at tablet rather than mobile to avoid the nav components appearing squashed. The Contact Us link displays clearly, separate from the other nav components, but remains withing the nav section and is responsive accordingly. There is a remaining bug on the hamburger close-menu transition animation which causes it to appear left behind briefly.  See [bugs](#bugs) for more information.
+**Result** - the navigation bar works as planned, being fully responsive across all device widths.  It was decided to collapse to hamburger at tablet rather than mobile to avoid the nav components appearing squashed. The Contact Us link displays clearly, separate from the other nav components, but remains within the nav section and is responsive accordingly. There is a remaining bug on the hamburger close-menu transition animation which causes part of it to appear left behind briefly.  See [bugs](#bugs) for more information.
 
 **Verdict** - PASS
 
 ### **Hero image**
+
+**Intent** - a full width image relevant to the page content, different for each page.  Primary purpose, to elicit a positive emotional response from the user.  The image should display correctly on all device sizes.  The image should display 100% height on the home page, 80% height on susequent pages to allow peep and 70% on the 404 page to display redirect information.
+
   * Check image fills the viewport/80/70 depending on page.
   * Resize to mobile/tablet and check that image still displays the full window height without distortion.
   * Check text remains centered with no overflow at mobile/tablet.
+
+**Result** - all seven images are fully responsive across various device types and widths, with no distortion or truncation.  The view height for each page is as expected.
+
+**Verdict** - PASS
 
 ### **Footer**
   * Check that footer appears in two equal sections.
