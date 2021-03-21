@@ -78,10 +78,10 @@ These components are present on every page, and each page has been tested.
 
 **Intent** - a sticky navbar which collapses to hamburger on mobile.  Contact Us section should display clearly, separate from other elements in both nav bar and hamburger menu.
 
-* Check that all links are valid and link to the appropriate page.
-* Check logo alt displays on hover (added title attribute).
-* Check that hover effect occurs correctly for each navigation section.
-* Check that active class is applied correctly for current page.
+* All links are valid and link to the appropriate page.
+* Logo alt displays on hover (added title attribute).
+* Hover effect occurs correctly for each navigation section.
+* Active class is applied correctly for current page.
 * Resize to mobile/tablet and check that navigation bar collapses to hamburger.
 * Expand hamburger menu and check all sections present, and displaying correctly.
 
@@ -95,9 +95,9 @@ These components are present on every page, and each page has been tested.
 
 **Intent** - a full width image relevant to the page content, different for each page.  Primary purpose, to elicit a positive emotional response from the user.  The image should display correctly on all device sizes.  The image should display 100% height on the home page, 80% height on susequent pages to allow peep and 70% on the 404 page to display redirect information.
 
-* Check image fills the viewport/80/70 depending on page.
+* Image fills the viewport/80/70 depending on page.
 * Resize to mobile/tablet and check that image still displays the full window height without distortion.
-* Check text remains centered with no overflow at mobile/tablet.
+* Text remains centered with no overflow at mobile/tablet.
 
 **Result** - all seven images are fully responsive across various device types and widths, with no distortion or truncation.  The view height for each page is as expected.
 
@@ -109,9 +109,9 @@ These components are present on every page, and each page has been tested.
 
 **Intent** - The footer should be reflective of the design of the nav to bookend each page and provide familiarity to the user.  This helps with intuitive learning.  The footer should display as two side by side sections on PC and tablet, then appear one beneath the other on mobile.  Social media links should open in new tabs and provide user feedback when hovered over.
 
-* Check that footer appears in two equal sections.
-* Check social media icons display correctly, and show feedback behaviour on hover.
-* Check that Social links open in new tabs to correct locations.
+* Footer appears in two equal sections.
+* Social media icons display correctly, and show feedback behaviour on hover.
+* Social links open in new tabs to correct locations.
 * Resize to tablet and check for text overflow issues.
 * Resize to mobile and check that sections wrap neatly below one another.
 
@@ -143,7 +143,7 @@ These items are specific to each individual page.
 * All buttons and links display user feedback on hover.
 * All internal links navigate to the correct page.
 * All external links navigate to the correct page in a new tab.
-* There was icon overflow on tablet as a result of incorrectly applied Boostrap grid classes, this has been corrected.
+* There was icon overflow on tablet as a result of incorrectly applied Bootstrap grid classes, this has been corrected.
 * Center text area from section 1 is correctly not displayed on tablet, and displays correctly on mobile and PC.
 
 **Result** - The page displays as expected across all tested device widths and all links behave correctly.  All user feedback is as expected.  There is no distortion of sections on mobile, tablet or PC.
@@ -159,7 +159,7 @@ These items are specific to each individual page.
 * All text sections and icons display correctly across tested device widths.
 * All buttons display user feedback on hover.
 * All internal links navigate to the correct page.
-* There were div alignement issues in both section 1 and 2 as a result of incorrectly applied Boostrap grid classes, this has been corrected.
+* There were div alignment issues in both section 1 and 2 as a result of incorrectly applied Bootstrap grid classes, this has been corrected.
 * A coloured icon is displayed between text segments in section 1 on mobile to break up the large amount of text.  As expected, this does not display on tablet or PC.
 
 **Result** - The page displays as expected across all tested device widths and all links behave correctly.  All user feedback is as expected.  There is no distortion of sections on mobile, tablet or PC.
@@ -175,7 +175,7 @@ These items are specific to each individual page.
 * All text sections and images display correctly across tested device widths.
 * All buttons display user feedback on hover.
 * All internal links navigate to the correct page.
-* There were div alignement issues in section 1, particularly with the diagrams, as a result of incorrectly applied Boostrap grid classes, this has been corrected.
+* There were div alignment issues in section 1, particularly with the diagrams, as a result of incorrectly applied Bootstrap grid classes, this has been corrected.
 * Numbered sections wrap correctly from linear on mobile to side by side on tablet and PC.
 
 **Result** - The page displays as expected across all tested device widths and all links behave correctly.  All user feedback is as expected.  There is no distortion of sections on mobile, tablet or PC.
@@ -184,22 +184,37 @@ These items are specific to each individual page.
 
 ---
 
+#### Actions
+
+**Intent** - Provide basic information regarding care which is consistent across all types of curly hair.  This page contains the most information, and therefore the most text.  Segments are still delivered in small digestible pieces to avoid overwhelming the user.
+
+* All text sections and icons display correctly across tested device widths.
+* All buttons and interactive elements display user feedback on hover or active state.
+* All internal links navigate to the correct page.
+* The div alignment issues in previous pages caused by incorrectly applied Bootstrap grid classes, was resolved and rectified while producing this page.
+* A coloured icon is displayed between text segments in section 1 on mobile to break up the large amount of text.  As expected, this does not display on tablet or PC.
+
+Embedded Video
+* iframe displays correctly without squashing and is responsive to all device widths.
+* Video loads paused so that the user can initiate interaction.
+
+Accordion
+* The accordion appears with all sections closed.
+* The accordion segments show feedback on hover.
+* The accordion segments expand fully with no overflow or truncation issues.
+* The active accordion segment shows appropriate feedback behaviour.
+* Only one accordion segment can be open at any time.
+* Clicking an open accordion segment button closes the segment.
+* Open accordion segments do not distort items further down the page.
+
+**Result** - The page displays as expected across all tested device widths and all links and components behave correctly.  All user feedback is as expected.  There is no distortion of sections on mobile, tablet or PC.
+
+**Verdict** - PASS
+
+---
 
 
 
-
-Embedded Video (Actions page only)
-  * Check that iframe displays correctly without squashing and is responsive to all device widths.
-  * Check that video loads paused so that the user can initiate interaction.
-
-Accordion (Actions page only)
-  * Check that accordion appears with all sections closed.
-  * Check that accordion segments show feedback on hover.
-  * Check that accordion segments expand fully with no overflow or truncation issues.
-  * Check that active accordion segment shows appropriate feedback behaviour.
-  * Check that only one accordion segment can be open at any time.
-  * Check that clicking an open accordion segment button closes the segment.
-  * Check that open accordion segments do not distort items further down the page.
 
 Contact Us Form (Contact Us page only)
   * Check form contents align nicely and that there is no overflow of content.
