@@ -261,9 +261,42 @@ Contact Us Form
 Details of any persistent or difficult bugs, and any bugs which remain unresolved.
 
 ### **Fixed Bugs**
-Split nav
-Boostrap class hierarchy
-Form validation
 
-### **Remaining Bugs
-Hamburger collapse transition
+#### Split Navigation Bar/menu
+From the outset, it was felt that the Contact Us link in the nav should be separate from the other elements.  The other elements are all part of a logical progression and are primarily designed to deliver information, which the Contact page is not.  Additionally, the Contact page should be immediately identifiable and as the page grows in content, could be lost amongst the volume.
+
+Trials with Bootstrap Grid worked really well, but it became apparent that the nav element and appropriate Bootstrap classes would be much better for accessibility and required for collapse to hamburger.  The Bootstrap nav components seem to work very differently from the rest of the grid.
+
+A number of approaches were used to try to place the Contact page on the right of the screen, including:
+* Float
+* Text align
+* Various flex classes and attributes as provided by Bootstrap
+* Various grid alignment classes per Bootstrap documentation
+
+Nothing moved the nav elements, or changed the alignment at all. Eventually position: absolute right: 0 was tried, which worked unexpectedly for both navbar and hamburger menu alignment, when there was an expectation that the desired hamburger menu position might need to be abandoned.
+
+#### Bootstrap Class Hierarchy
+
+Easily the biggest bugbear of this project were the issues caused by not fully understanding the Bootstrap grid components and the order in which they *must* be applied in order for weird things not to happen.
+
+There were two main bugs caused by this. The most predominant was a narrow white overspill down the right side of the page which resulted in a horizontal scrollbar, regardless of size, but not always affecting all page sections. The other was the disappearance of the gutter on either the left or right side of a segment (never both) resulting in misaligned segments which were horribly obvious on mobile.
+
+Whilst it was understood that every col *has* to have a parent row, it was not understood that every child of a row had to have a col class, or be a block element.  Additionally, the relationship of the container to the row and col classes was not understood to be as linear as it is.
+
+#### Form Validation
+
+The assessment handbook, and good UX design requires that feedback be given to the user on all interactions.  Browser validation for input fields in the Contact form were successfully activated by use of the required attribute, which satisfied this requirement for completion of the form fields.  On submitting a correctly completed form however, the page simply refreshed and no feedback was given.
+
+A kind suggestion of [Eventyret/Simen Daehlin](https://github.com/Eventyret) was to create the positive feedback using a modal.  The modal boilerplate from Bootstrap was used to successfully generate a positive feedback popup, but ascthis switched the button type to button from submit, and meant that the form fields were no longer validated before submission.
+
+The modal code classes and ID's were updated and the button type switched back to submit, however this simply resulted in the form validation error message and success modal appearing simultaneously.
+
+[Eventyret/Simen Daehlin](https://github.com/Eventyret) had also shared a link to a README that they felt was a good template when answering a number of my queries.  In that README I noticed that the developer had experienced the exact same issue, and Eventyret had written a script which made the validation and modal popup appear correctly.
+
+The code was copied into the contact page for this project (attributed in code and in README), and after much, much surmising and guessing the classes and ID's were aligned with those in this project but the script still didn't work.  Lighthouse displayed an Uncaught Reference Error, after much fruitless manipulation of classes and ID's, it was realised that a) there was no link to the library that the script required to work and b) the script had to sit beneath this library link in the HTML.
+
+The form now validates properly, and the modal only displays when appropriate.
+
+### **Remaining Bugs**
+
+#### Hamburger collapse transition
