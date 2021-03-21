@@ -1,6 +1,6 @@
 # **Curls**
 
-## **Testing**
+# Testing
 
 A plan and log for testing the website, this is a manual testing plan due to the limitations of the developer at this time, and the nature of the page.
 

@@ -1,6 +1,6 @@
-# Curls
+# **Curls**
 
-## Development Life Cycle
+# Development Life Cycle
 
 This document is to provide an brief insight into how the approach to the code structure of the website was expected to work, what changed and why, and then to summarise how the creator would now approach replicating the project.
 
@@ -23,7 +23,7 @@ The final draft project is well structured, absolutely responsive, fulfils the u
 ## Lessons Learned
 As the first proper personal project, many mistakes were made in its development and a number of inappropriate approaches were taken across the board.  These can largely be narrowed down to inexperience and relying primarily upon the content provided in the LMS by Code Institute rather than supplementing that learning with self guided learning in relation to both mini code projects and industry standards and best practices.
 
-### Preparation
+### **Preparation**
 The UX design process was followed closely, and the stages relating to each plane were actually fairly comprehensive.  These provided a good foundation for the production of wireframes and preparation for the build proper.
 
 Limited knowledge of Bootstrap and the grid system that makes it so useful meant that the wireframes were not always readily translated into code.  This made for a particularly frustrating experience coding the first few pages until proper understanding was gained and utilised going forwards.  It also meant that the first few pages had to be almost completely rebuilt.
@@ -32,7 +32,7 @@ Wireframes were built PC first, with section design based heavily on this medium
 
 Assets were not adequately prepared in advance.  Hero images were uploaded at full size and in rectangular format, with little disposable edge space.  This meant that a number of images had to be discarded and new ones found to replace them that would work better in a responsive design.  Diagrams were built as the page was being written, and not designed to fit the space they were to occupy.  It is apparent that knowing the approximate size and shape of the desired asset is valuable and makes incorporating them into the website much easier.
 
-### Build
+### **Build**
 In hindsight, the creator would choose to build with Bootstrap 4 which as an established following and a vast array of resources and supports rather than Bootstrap 5 which is fairly new, and it is therefore more difficult to find assistance for bugs.
 
 An enormous number of best practice points became apparent on first review with the project mentor, and then subsequently when validating code and seeking assistance in the Code Institute community.  Some of these relate to code, others to how it should be approached.
@@ -53,7 +53,7 @@ An enormous number of best practice points became apparent on first review with 
 
 Based on the experience of producing the website, the creator would now take the following approach.
 
-### Preparation
+### **Preparation**
 Not much changed in terms of the 5 Planes of Design, or the use of wireframes, however, the creator would now invest more time in preparing assets in advance and planning for the behaviour of known technologies.
 1. Use the 5 Planes of UX design to work out what is needed from the perspective of the owner and users.
 1. Being mindful of the discoveries in the design process, decide what languages and frameworks might be necessary to achieve the minimum viable product.
@@ -63,7 +63,7 @@ Not much changed in terms of the 5 Planes of Design, or the use of wireframes, h
 1. Resize images for optimal web viewing, this can be done simply using Paint in Windows.
 1. If any assets need to be made, work out what dimensions will be required and make them accordingly.  Trying to tweak or work with diagrams which are not the shape and size of the destination on the page is difficult.
 
-### Build
+### **Build**
 1. Get the right information in the head.  Decide what Bootstrap version to use, what Font Awesome etc and include it from the start.
 1. Establish meta elements like favicon and description in the header.
 1. Include any scripts to be used at the foot of the body, in a commented section.
@@ -79,7 +79,7 @@ Not much changed in terms of the 5 Planes of Design, or the use of wireframes, h
 1. Deal with any issues.
 1. Use the structure established in the home sections to help build the body of the other pages, one at a time.
 
-### Testing
+### **Testing**
 1. Validate HTML.
 1. Validate CSS.
 1. Validate accessibility/performance/SEO with Lighthouse.

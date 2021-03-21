@@ -1,6 +1,6 @@
 # **Curls**
 
-## **Overview**
+# Overview
 
 An easily accessible basic resource for people looking for information about haircare methods specific to curly hair. Changes in fashion and greater acceptance of individuality mean more people are able to wear naturally curly hair in a professional environment as well as in other situations in which it would have previously been considered inappropriate.
 
@@ -41,7 +41,7 @@ Note, testing and development life cycle information can be found in separate do
 
 ## UX
 
-### Overview and Broad Design Choices
+### **Overview and Broad Design Choices**
 Adopters of curly specific haircare do tend to be female and younger, however this is rapidly changing as male grooming becomes more mainstream, and personal freedoms become more acceptable for all generations.  The users of this website therefore could be anybody, regardless of age or gender and the design is approached accordingly.
 *  Bright unisex colours are offset by classic, largely white sections and black/white text and details.
 *  Soft scrolling fonts are contrasted with sharp, angled corners and straight lines.
@@ -242,7 +242,7 @@ This information is held in the following files:
 
 ## Technologies Used
 
-### Languages
+### **Languages**
 * HTML5 is used to provide the basic structure of the website.
   * About: [HTML5 Wiki](https://en.wikipedia.org/wiki/HTML5)
   * Creator: [W3 Consortium](https://www.w3.org/)
@@ -252,13 +252,13 @@ This information is held in the following files:
 * JavaScript elements are used via Boostrap and directly for modal validation.
   * About: [JavaScript Home](https://www.javascript.com/)
 
-### Libraries and Frameworks
+### **Libraries and Frameworks**
 * [Bootstrap 5](https://getbootstrap.com/) is used to provide the grid functionality for uniform design, responsiveness and to enable the use of modal and hamburger menu.
 * [Google Fonts](https://fonts.google.com/) are used to provide the typography for the website.
 * [Font Awesome](https://fontawesome.com/) is used to provide the icons for the website.
 * [jQuery](https://jquery.com/) is used to facilitate the modal validation sequence.
 
-### Tools
+### **Tools**
 * [Git](https://git-scm.com/)/[GitHub](https://github.com/) were used for version control and repository storage.
 * [GitPod](https://www.gitpod.io/) was the IDE used to write the project.
 * [Chrome Dev Tools](https://developers.google.com/web/tools/chrome-devtools) were used for specific responsiveness testing and drilling down into bug fixing.
@@ -267,7 +267,7 @@ This information is held in the following files:
 * [W3C HTML Validation Service](https://validator.w3.org/) was used to remove any remaining errors in HTML code.
 * [Responsively](https://responsively.app/) was used to explore responsiveness across various devices.
 
-### Other Resources
+### **Other Resources**
 * [Code Institute Full Template](https://github.com/Code-Institute-Org/gitpod-full-template) was used to set up the repository.
 * [DailyMotion Aspect Preservation](https://faq.dailymotion.com/hc/en-us/articles/360022841393-How-to-preserve-the-player-aspect-ratio-on-a-responsive-page) was used to help keep the iframe responsive across device changes.
 * [101 Computing Favicons](https://www.101computing.net/html-how-to-add-a-favicon/) was used to work out what a favicon is, and how it should be used.
@@ -377,3 +377,5 @@ The images for this README are from the following sources:
 **This website was produced as an educational project for the Code Institute Full Stack Development course.**
 
 **Created by Amy Hacker.**
+
+[Back to Top](#curls)
