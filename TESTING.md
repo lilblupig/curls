@@ -19,19 +19,19 @@ A plan and log for testing the website, this is a manual testing plan due to the
     * [404](#404)
 1. [Bugs](#bugs)
 
-### **Validation Testing**
+## Validation Testing
 The project code has been passed through the following code validators:
 * [HTML Code Validator](https://validator.w3.org/)
 * [CSS Code Validator](https://jigsaw.w3.org/css-validator/)
 
 The project has been assessed throughout development using [Lighthouse](https://developers.google.com/web/tools/lighthouse).
 
-### **Logic Error Testing**
+## Logic Error Testing
 1. Check that script to determine form validation and success feedback has no errors.
     * Script initially triggered invalid reference errors in Lighthouse and would not display.  Some experimentation determined that the script needed to be included after the link to the library.  As a beginner developer, JavaScript concepts are currently unknown and there is potential for further issues with this.
     * (See also [bugs](#bugs) section).
 1. Check all pages for appropriate Bootstrap grid component ordering.
-    * Hero boilerplate - missing col-12 in <p> tag on all pages.
+    * Hero boilerplate - missing col-12 in paragraph tag on all pages.
     * Home page - missing col-12 in div on rows 172/215/229.
     * Science page - section 1 had compenents without correct hierarchy.
     * Science page - missing col-12 in div on row 105.
@@ -42,7 +42,7 @@ The project has been assessed throughout development using [Lighthouse](https://
     * Contact page - missing col-12 on row 106.
     * (See also [bugs](#bugs) section).
 
-### **Client Stories Testing**
+## Client Stories Testing
 1. As a new user, I want to quickly determine if the website contains information I need, so that I know quickly whether to stay on the page.
     1. The navigation bar is shown on every page with descriptive headings.
     1. The homepage has short summaries of each section including an overall synopsis.
@@ -65,24 +65,36 @@ The project has been assessed throughout development using [Lighthouse](https://
     1. All sections of the website are clearly linked to from the Navigation bar which is present on every page, either as shown on PC or in hamburger format.
     ![User story 6 screenshot](assets/readme-images/user-story-6.png)
 
-### **Manual Testing**
+## Manual Testing
 
-#### Plan for each page
+### **Navigation bar**
 
-* Navigation bar
-  * Check that all links are valid and link to the appropriate page.
-  * Check logo alt displays on hover.
-  * Check that hover effect occurs correctly for each navigation section.
-  * Check that active class is applied correctly for current page.
-  * Resize to mobile/tablet and check that navigation bar collapses to hamburger.
-  * Expand hamburger menu and check all sections present, and displaying correctly.
+**Intent** - a sticky navbar which collapses to hamburger on mobile.  Contact Us section should display clearly, separate from other elements in both nav bar and hamburger menu.
 
-* Hero image
+* Check that all links are valid and link to the appropriate page.
+* Check logo alt displays on hover.
+* Check that hover effect occurs correctly for each navigation section.
+* Check that active class is applied correctly for current page.
+* Resize to mobile/tablet and check that navigation bar collapses to hamburger.
+* Expand hamburger menu and check all sections present, and displaying correctly.
+
+**Result** - the navigation bar works as planned, being fully responsive across all device widths.  It was decided to collapse to hamburger at tablet rather than mobile to avoid the nav components appearing squashed. The Contact Us link displays clearly, separate from the other nav components, but remains withing the nav section and is responsive accordingly. There is a remaining bug on the hamburger close-menu transition animation which causes it to appear left behind briefly.  See [bugs](#bugs) for more information.
+
+**Verdict** - PASS
+
+### **Hero image**
   * Check image fills the viewport/80/70 depending on page.
   * Resize to mobile/tablet and check that image still displays the full window height without distortion.
   * Check text remains centered with no overflow at mobile/tablet.
 
-* Page specific sections
+### **Footer**
+  * Check that footer appears in two equal sections.
+  * Check social media icons display correctly, and show feedback behaviour on hover.
+  * Check that Social links open in new tabs to correct locations.
+  * Resize to tablet and check for text overflow issues.
+  * Resize to mobile and check that sections wrap neatly below one another.
+
+### **Page specific sections**
   * Check all areas of text align appropriately, horizontally and vertically.
   * Check that behaviour is correct for mobile/tablet.
   * Check that any links, buttons or fields show feedback behaviour on hover.
@@ -90,18 +102,11 @@ The project has been assessed throughout development using [Lighthouse](https://
   * Check that any external links open in a new tab, to the correct place.
   * Check that any icons do not overflow into text on mobile/tablet.
 
-* Footer
-  * Check that footer appears in two equal sections.
-  * Check social media icons display correctly, and show feedback behaviour on hover.
-  * Check that Social links open in new tabs to correct locations.
-  * Resize to tablet and check for text overflow issues.
-  * Resize to mobile and check that sections wrap neatly below one another.
-
-* Embedded Video (Actions page only)
+Embedded Video (Actions page only)
   * Check that iframe displays correctly without squashing and is responsive to all device widths.
   * Check that video loads paused so that the user can initiate interaction.
 
-* Accordion (Actions page only)
+Accordion (Actions page only)
   * Check that accordion appears with all sections closed.
   * Check that accordion segments show feedback on hover.
   * Check that accordion segments expand fully with no overflow or truncation issues.
@@ -110,7 +115,7 @@ The project has been assessed throughout development using [Lighthouse](https://
   * Check that clicking an open accordion segment button closes the segment.
   * Check that open accordion segments do not distort items further down the page.
 
-* Contact Us Form (Contact Us page only)
+Contact Us Form (Contact Us page only)
   * Check form contents align nicely and that there is no overflow of content.
   * Check fields display correctly on mobile/tablet.
   * Check placeholder text displays in fields.
@@ -121,3 +126,15 @@ The project has been assessed throughout development using [Lighthouse](https://
   * Try to submit form without question, check error message displays.
   * Submit correctly completed form, receive success modal.
   * Check modal information centers pleasingly with no overflow on all device widths.
+
+## Bugs
+
+Details of any persistent or difficult bugs, and any bugs which remain unresolved.
+
+### **Fixed Bugs**
+Split nav
+Boostrap class hierarchy
+Form validation
+
+### **Remaining Bugs
+Hamburger collapse transition
