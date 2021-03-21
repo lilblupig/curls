@@ -8,6 +8,7 @@ A plan and log for testing the website, this is a manual testing plan due to the
 1. [Validation Testing](#validation-testing)
 1. [Client Stories Testing](#client-stories-testing)
 1. [Manual Testing](#manual-testing)
+    * [Plan](#plan-for-each-page)
     * [Home](#home)
     * [Science](#science)
     * [Types](#types)
@@ -40,8 +41,8 @@ The project has been assessed throughout development using [Lighthouse](https://
 
 ### **Manual Testing**
 
-#### For each page:
-Working from top to bottom of the page on PC.
+#### Plan for each page
+
 * Navigation bar
   * Check that all links are valid and link to the appropriate page.
   * Check logo alt displays on hover.
@@ -58,37 +59,39 @@ Working from top to bottom of the page on PC.
 * Page specific sections
   * Check all areas of text align appropriately, horizontally and vertically.
   * Check that behaviour is correct for mobile/tablet.
-  * Check that any links, buttons or fields show responsive behaviour on hover.
+  * Check that any links, buttons or fields show feedback behaviour on hover.
   * Check that any links navigate to correct pages.
+  * Check that any external links open in a new tab, to the correct place.
   * Check that any icons do not overflow into text on mobile/tablet.
 
 * Footer
   * Check that footer appears in two equal sections.
-  * Check social media icons display correctly, and show responsive behaviour on hover.
+  * Check social media icons display correctly, and show feedback behaviour on hover.
   * Check that Social links open in new tabs to correct locations.
   * Resize to tablet and check for text overflow issues.
   * Resize to mobile and check that sections wrap neatly below one another.
 
-* Contact Us Form
-  * Open modal, check form centers pleasingly with no overflow.
-  * Check submit button responsive behaviour on hover.
-  * Attempt submission of empty form and ensure errors appear with information about the required fields.
-  * Enter incorrect format email and try to submit form, ensure that errors appear with information about required fields.
-  * Correctly complete form and check that success message appears.
-  * Resize to tablet and check formatting for overflow etc.
-  * Resize to mobile and check formatting as for tablet.
-  * Also - check behaviour on tablet.
-  * Also - check behaviour on mobile device.
+* Embedded Video (Actions page only)
+  * Check that iframe displays correctly without squashing and is responsive to all device widths.
+  * Check that video loads paused so that the user can initiate interaction.
 
-* Form
-  * Check text section aligns appropriately.
+* Accordion (Actions page only)
+  * Check that accordion appears with all sections closed.
+  * Check that accordion segments show feedback on hover.
+  * Check that accordion segments expand fully with no overflow or truncation issues.
+  * Check that active accordion segment shows appropriate feedback behaviour.
+  * Check that only one accordion segment can be open at any time.
+  * Check that clicking an open accordion segment button closes the segment.
+  * Check that open accordion segments do not distort items further down the page.
+
+* Contact Us Form (Contact Us page only)
   * Check form contents align nicely and that there is no overflow of content.
-  * Check placeholder taxt displays.
+  * Check fields display correctly on mobile/tablet.
+  * Check placeholder text displays in fields.
+  * Check fields and submit button display feedback on hover.
+  * Check fields display feedback on focus.
   * Try to submit blank form, check error messages display with information.
   * Try to submit email in incorrect format, check error message displays with information.
-  * Submit correctly completed form, receive success information.
-  * Resize to tablet and check that text folds to create two side by side sections and one section wrapped underneath.
-  * At tablet size, check that horizontal rule appears.
-  * Resize to mobile and check that text sections arrange vertically and additional horizontal rule appears.
-  * Also - check behaviour on tablet.
-  * Also - check behaviour on mobile device.
+  * Try to submit form without question, check error message displays.
+  * Submit correctly completed form, receive success modal.
+  * Check modal information centers pleasingly with no overflow on all device widths.
