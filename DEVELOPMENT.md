@@ -12,16 +12,16 @@ Changes to design are documented in the UX section of the [README](README.md) un
 1. [Revised Development Process](#revised-development-process)
 
 ## Reflections on General Approach to Build
-The preparation and build plan for the project was methodical and modular, with the intention of building one thing at a time.  To a greater extent this was achieved, but a number of early build sections had to be re-written.  Greater understanding of the concepts to be used would avoid this.  The preparation and user/owner research did provide a solid foundation to work from, and will be repeated, along with the use of a kanban board or GitHub projects area.
+The preparation and build plan for the project was methodical and modular, with the intention of building one thing at a time and using previous code as a template for other similar parts of the website.  To a greater extent this was achieved, but a number of early build sections had to be re-written, some a number of times, as shown in the commit history.  Greater understanding of the concepts to be used would avoid this.  The preparation and user/owner research did provide a solid foundation to work from and an excellent focus for direction in resolving issues. This approach will be repeated, along with the use of a kanban board or GitHub projects area.
 
 Overall commits are short, concise and descriptive.  Most commits are made in the style "Change in","Page name","Section number".  This became unclear at times, such as when first building sections on the "More" page: the commit was "Add more s1". Without context this is very ambiguous.  This degenerated further when coding tired and abbreviating Page names to their first letter "Amend spacing T S2."  On future projects a predefined structure will be chosen for commits and used at all times.
 
-The creator is probably too self-reliant and should ask for help sooner.  Going forward, the 30 minute rule will apply to major bugs, before seeking assistance from tutor support or if available mentoring.
+The development lifecycle for this project has been quite repetetive.  As a beginner developer, the creator gained better understanding of various concepts at middle and later stages of development, that learning was then applied to previous code before moving on to the next new section in order to maintain consistency of both code and page structure.
 
-The final draft project is well structured, absolutely responsive, fulfils the user stories and scores highly on Lighthouse in all areas.  The creator believes the project is of good quality and has real-world value.
+The final draft project is well structured, absolutely responsive, fulfils the user stories, clears the W3C validators and scores highly on Lighthouse in all areas.  The creator believes the project is of good quality and has real-world value.
 
 ## Lessons Learned
-As the first proper personal project, many mistakes were made in its development and a number of inappropriate approaches were taken across the board.  These can largely be narrowed down to inexperience and relying primarily upon the content provided in the LMS by Code Institute rather than supplementing that learning with self guided learning in relation to industry standards and best practices.
+As the first proper personal project, many mistakes were made in its development and a number of inappropriate approaches were taken across the board.  These can largely be narrowed down to inexperience and relying primarily upon the content provided in the LMS by Code Institute rather than supplementing that learning with self guided learning in relation to both mini code projects and industry standards and best practices.
 
 ### Preparation
 The UX design process was followed closely, and the stages relating to each plane were actually fairly comprehensive.  These provided a good foundation for the production of wireframes and preparation for the build proper.
@@ -33,11 +33,11 @@ Wireframes were built PC first, with section design based heavily on this medium
 Assets were not adequately prepared in advance.  Hero images were uploaded at full size and in rectangular format, with little disposable edge space.  This meant that a number of images had to be discarded and new ones found to replace them that would work better in a responsive design.  Diagrams were built as the page was being written, and not designed to fit the space they were to occupy.  It is apparent that knowing the approximate size and shape of the desired asset is valuable and makes incorporating them into the website much easier.
 
 ### Build
-In hindsight, the creator would choose to build with Bootstrap 4 which as an established following and a vast array of resources and supports rather than Bootstrap 5 which is fairly new, and difficult to find assistance for bugs.
+In hindsight, the creator would choose to build with Bootstrap 4 which as an established following and a vast array of resources and supports rather than Bootstrap 5 which is fairly new, and it is therefore more difficult to find assistance for bugs.
 
-An enormous number of best practice points became apparent on first review with the project mentor, and then subsequently when validating code and seeking assistance in the Code Institute community.  SOme of these relate to code, others to how it should be approached.
+An enormous number of best practice points became apparent on first review with the project mentor, and then subsequently when validating code and seeking assistance in the Code Institute community.  Some of these relate to code, others to how it should be approached.
 * Do not override Bootstrap classes, create additional classes for the same elements/attributes and style those.
-* Be sure to understand CSS specificity, overriding Bootstrap styling is difficult and confusing.  It is likely that the use of parent-child relationships, multiple classes and possibly even ID's where possible might be necessary to override the specificity within Bootstrap.  When one considers the class system used to make Bootstrap work, this is less surprising.
+* Be sure to understand CSS specificity, overriding Bootstrap styling is difficult and confusing.  It is likely that the use of parent-child relationships, multiple classes and possibly ID's where appropriate might be necessary to override the specificity within Bootstrap.  When one considers the class system used to make Bootstrap work, this is less surprising.
 * Do not use !important unless it is absolutely unavoidable.  It can be difficult to understand the hierarchy of many attributes utilising !important.
 * Comments in code should use only the standard comment indicators, and not larger dash numbers as indicated in some tutorials.  HTML comments should have only two dashes, and CSS comments should have none.
 * Use Bootstrap classes for manipulation of space (padding/margin etc) rather than creating custom classes.
@@ -64,12 +64,12 @@ Not much changed in terms of the 5 Planes of Design, or the use of wireframes, h
 1. If any assets need to be made, work out what dimensions will be required and make them accordingly.  Trying to tweak or work with diagrams which are not the shape and size of the destination on the page is difficult.
 
 ### Build
-1. Get the right information in the head.  Decide what Boostrap version to use, what Font Awesome etc and include it from the start.
+1. Get the right information in the head.  Decide what Bootstrap version to use, what Font Awesome etc and include it from the start.
 1. Establish meta elements like favicon and description in the header.
 1. Include any scripts to be used at the foot of the body, in a commented section.
 1. If using Bootstrap, take the time to really understand the structure.  For example, rows and columns not in containers seem to work at first glance, but actually do really strange things like overspill just ever so slightly off the edge of the page, or only have one margin (gutter) on the left, but not on the right meaning sections are not centred within their parent.
 1. Build the nav first, and get it right before moving on.  A nav was built as the first item in this project but required a lot of tweaking as a result of not understanding how Bootstrap would affect it.  These changes then had to be copied across all pages each time.
-1. Build to footer second, and get it right before moving on.  The same as the nav, this section was given a basic structure and not polished bfore moving on.  Any changes then had to be replicated across all pages.
+1. Build the footer second, and get it right before moving on.  The same as the nav, this section was given a basic structure and not polished before starting other components.  Any changes then had to be replicated across all pages.
 1. Once the basic structure to be used on all pages is complete, set up dummy files for all pages and establish links.  There were no missed links on the pages built this way, but there were on pages which were written before the other files existed.
 1. Once complete examine code using Lighthouse and W3C HTML and CSS validators.
 1. Deal with any issues.
