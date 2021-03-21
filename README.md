@@ -126,9 +126,9 @@ Very basic 404 redirect page with a link to home to prevent stuck users.
 1. [PC/Laptop](assets/documents/curls-pc.pdf) 1200px
 
 ##### Final
-1.  [Mobile](assets/documents/) 375px
-1.  [Tablet](assets/documents/) 768px
-1.  [PC/Laptop](assets/documents/curls-pc.pdf) 1200px
+1. [Mobile](assets/documents/curls-mobile-final.pdf) 375px
+1. [Tablet](assets/documents/curls-tablet-final.pdf) 768px
+1. [PC/Laptop](assets/documents/curls-pc-final.pdf) 1200px
 
 ##### Summary of Changes
 The most notable change between the original wireframes and the final version is the footer.  The original design felt very disconnected to the flow of the page, and almost unfinished when viewed in its final environment.  Other top-level changes are the exchange of in-line text links for bolder, more obvious call to action buttons, the use of collapsed nav in hamburger button format on tablet and the elimination of underlines, horizontal and vertical rules.
