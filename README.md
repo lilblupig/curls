@@ -83,7 +83,7 @@ The scope of the project therefore is to provide condensed, basic information wh
 
 #### Feature Viability
 
-#|Feature | Importance | Viability | Comment 
+# | Feature | Importance | Viability | Comment 
 ---|------------ | -------------|--------------|-----------|
 1.| Identify curl type  | 5 | 5 | Y - Important for care routine
 2.| Identify porosity | 5 | 5 | Y - Important for care routine
@@ -243,6 +243,30 @@ This information is held in the [Testing](TESTING.md) file.
 This section is to provide an brief insight into how the approach to the code structure of the website was expected to work, what changed and why, and then to summarise how the creator would now approach replicating the project.
 
 Changes to design are documented in the [UX section](#ux) under [wireframes](#wireframes).
+
+The project was deployed using GitHub pages once the basic structure of the page was complete.  This allowed for continuous delivery as each change was made, and pushed.
+
+Commits were made as each section of each page was added and pushed once a section was complete.
+
+A number of commits made had insufficient or ambiguous information, these are listed and clarified in the table below:
+
+### **Clarified Commits**
+
+Commit Ref | Original message | Revised message
+--- | --- | ----
+20c7332d8fece7ec9c2c1ebd483ff1964b7fccfc | Update H S1 responsivity to remove mid text on tablet. | Update Home Section 1 to remove text on tablet.
+878f7c69a2845a06f1accadc6f000e7681f7cc20 | Format H S3. | Format Home section 3.
+8ab902e78b50e6b1147b5033e1e1734ffb921c4b | Add H S3 icons. | Add Home section 3 icons.
+387fa925da503db2ea09ec9f4f02454b6d66ff5e | Style H S3. Re-colour home theme. | Style Home section 3. Re-colour home theme.
+08354b97a6624baaf5a8691adf6e4b62e8d5c640 | Style H S4. Reclassify spacer classes. | Style Home section 4. Reclassify spacer classes.
+1c76c23f692f7b076efd9b86fd5aef33ed590832 | Add H S4 link paragraph. | Add Home section 4 link paragraph.
+58af65fa9f428fb0edae00ced3dd60a76e1ed8ef | Attempt responsive columns S S1. | Attempt responsive columns Science section 1.
+8f244c1329aef320c9cc4a54d5c0f521cb325c31 | Update S S1 styling. | Update Science section 1 styling.
+a79c76089d2d69b844d5ac8632fe0cf4e118d9a5 | Style T S1. | Style types section 1.
+42c9ed2fbcdf915c949f73c84281e5aaf2110571 | Correct tablet A S1 alignment. | Correct tablet Actions section 1 alignment.
+cab611e13dc5bb49cab26032c0027177fc52090e | Add More S1. | Add More Info page section 1.
+79172cb91990298a312aea8d1557f3141c6041fb | Add more S2. | Add More Info page section 2.
+254af1a0556ab2ec800fb97d0c2f1065e68a38e4 | Add More S3. | Add More Info page section 3.
 
 ### **Reflections on General Approach to Build**
 The preparation and build plan for the project was methodical and modular, with the intention of building one thing at a time and using previous code as a template for other similar parts of the website.  To a greater extent this was achieved, but a number of early build sections had to be re-written, some a number of times, as shown in the commit history.  Greater understanding of the concepts to be used would avoid this.  The preparation and user/owner research did provide a solid foundation to work from and an excellent focus for direction in resolving issues. This approach will be repeated, along with the use of a kanban board or GitHub projects area.
