@@ -310,8 +310,7 @@ nav.curls-nav .curls-toggler-icon {
 }
 
 .further ol a {
-    color: #000000;
-    font-weight: 600;
+    color: #ba39bf;
 }
 
 .further ol a:hover {
@@ -320,7 +319,7 @@ nav.curls-nav .curls-toggler-icon {
 
 .more-card {
     width: 100%;
-    min-height: 12rem;
+    min-height: 14rem;
 }
 
 .lists-home {
