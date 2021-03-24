@@ -503,8 +503,10 @@ footer {
 }
 
 .footer-card {
-    height: 90px;
-    padding-top: 12px;  
+    height: 100px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin: 0 0 10px 0;
 }
 
 .instagram {
