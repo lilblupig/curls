@@ -377,9 +377,15 @@ nav.curls-nav .curls-toggler-icon {
     padding-top: 2rem;
 }
 
+.type-diagram-container {
+    padding: 0;
+}
+
 .type-diagram {
     border: 1px solid #fcff54;
     padding: 0;
+    height: 100%;
+    width: 100%;
 }
 
 .types-absorb {
