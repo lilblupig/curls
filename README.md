@@ -83,8 +83,8 @@ The scope of the project therefore is to provide condensed, basic information wh
 
 #### Feature Viability
 
-# | Feature | Importance | Viability | Comment 
----|------------ | -------------|--------------|-----------|
+| # | Feature | Importance | Viability | Comment |
+|---| ------- | :--------: | :-------: | ------- |
 1.| Identify curl type  | 5 | 5 | Y - Important for care routine
 2.| Identify porosity | 5 | 5 | Y - Important for care routine
 3.| Identify hair type | 2 | 4 | N - Advanced concept, research needed
