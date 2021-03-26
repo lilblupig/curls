@@ -33,10 +33,6 @@ body {
     background-color: #f947ff;
 }
 
-.test {
-    background-color: red;
-}
-
 /* Fonts & Headers */
 
 h1 {
@@ -101,7 +97,7 @@ a {
     padding: 0;
 }
 
-ul {
+nav ul {
     padding: 0;
 }
 
@@ -111,10 +107,10 @@ ul {
     }
 }
 
-/* .contact {
+.contact {
     position: absolute;
     right: 0;
-} */
+}
 
 .logo {
     font-family: "Sunshiney", cursive;
@@ -140,6 +136,7 @@ nav a, .curls-nav-border {
 }
 
 nav a:hover {
+    color: #000000;
     border-bottom: solid;
     border-width: 3px;
     border-color: #ffffff;
