@@ -92,13 +92,19 @@ a {
     background-color: #ffffff;
 }
 
-.curls-nav .container-fluid {
+.curls-nav .container-fluid, .curls-nav div  {
     margin: 0;
     padding: 0;
 }
 
-ul {
+nav ul {
     padding: 0;
+}
+
+@media (min-width: 992px) {
+    #curlsnavlinks {
+        display: block;
+    }
 }
 
 .contact {
@@ -123,19 +129,20 @@ ul {
     border-color: #f947ff;
 }
 
-nav a {
+nav a, .curls-nav-border {
     border-bottom: solid;
     border-width: 3px;
     border-color: #000000;
 }
 
 nav a:hover {
+    color: #000000;
     border-bottom: solid;
     border-width: 3px;
     border-color: #ffffff;
 }
 
-ul#curls-nav-list a.curls-link {
+.curls-link {
     color: #000000;
     font-weight: 500;
     padding: 8px 24px;
@@ -145,25 +152,10 @@ a.selected {
     text-decoration: underline;
 }
 
-nav.curls-nav .curls-nav-toggler {
+.hamburger {
     border: none;
-    border-bottom: solid;
-    border-width: 2px;
-    border-color: #00000000;
-    border-radius: 0;
-    padding: 9px 16px;
-}
-
-nav.curls-nav .curls-nav-toggler:hover {
-    box-shadow: none;
-    border-bottom: solid;
-    border-width: 2px;
-    border-color: #000000;
     background-color: white;
-}
-
-nav.curls-nav .curls-nav-toggler:focus {
-    box-shadow: none;
+    padding: 7px 16px;
 }
 
 nav.curls-nav .curls-toggler-icon {
@@ -262,8 +254,8 @@ nav.curls-nav .curls-toggler-icon {
 
 .hero-overlay {
     background-color: rgba(0, 0, 0, 0.35);
-    top: 0;
-    left: 0;
+    /* top: 0;
+    left: 0; */
     width: 100%;
     height: 80vh;
 
