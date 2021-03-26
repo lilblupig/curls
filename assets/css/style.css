@@ -92,7 +92,7 @@ a {
     background-color: #ffffff;
 }
 
-.curls-nav .container-fluid {
+.curls-nav .container-fluid, .curls-nav div  {
     margin: 0;
     padding: 0;
 }
