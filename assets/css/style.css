@@ -101,10 +101,16 @@ ul {
     padding: 0;
 }
 
-.contact {
+@media (min-width: 992px) {
+    #curlsnavlinks {
+        display: block;
+    }
+}
+
+/* .contact {
     position: absolute;
     right: 0;
-}
+} */
 
 .logo {
     font-family: "Sunshiney", cursive;
@@ -262,8 +268,8 @@ nav.curls-nav .curls-toggler-icon {
 
 .hero-overlay {
     background-color: rgba(0, 0, 0, 0.35);
-    top: 0;
-    left: 0;
+    /* top: 0;
+    left: 0; */
     width: 100%;
     height: 80vh;
 

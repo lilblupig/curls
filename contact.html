@@ -4,9 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Contact page to allow users to ask questions about caring for curly hair or make suggestions to add to or improve the website.">
+    <meta name="description"
+        content="Contact page to allow users to ask questions about caring for curly hair or make suggestions to add to or improve the website.">
     <link rel="icon" href="assets/images/favicon.png" type="image/x-icon" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta2/css/bootstrap.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="assets/css/style.css" />
     <title>Curls - Contact</title>
@@ -16,35 +18,44 @@
 
     <!-- NavBar -->
 
-    <nav class="navbar navbar-expand-lg navbar-light curls-nav">
+    <nav class="curls-nav">
         <div class="container-fluid">
-            <a class="logo nav-item nav-link white" href="#" title="Return to top"><strong>Curls</strong></a>
-            <button class="navbar-toggler curls-nav-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon curls-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav" id="curls-nav-list">
-                    <li class="nav-item blue">
-                        <a class="nav-link curls-link" aria-current="page" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item green">
-                        <a class="nav-link curls-link" href="science.html">Science</a>
-                    </li>
-                    <li class="nav-item yellow">
-                        <a class="nav-link curls-link" href="types.html">Hair Types</a>
-                    </li>
-                    <li class="nav-item orange">
-                        <a class="nav-link curls-link" href="actions.html">Actions</a>
-                    </li>
-                    <li class="nav-item pink">
-                        <a class="nav-link curls-link" href="more.html">More Resources</a>
-                    </li>
-                    <li class="nav-item blue contact">
-                        <a class="nav-link curls-link selected" href="contact.html">Contact Us</a>
-                    </li>
-                </ul>
+            <div class="row">
+                <div class="col-5 col-md-3 col-lg-2 text-center">
+                    <a class="logo nav-item nav-link" href="#" title="Return to top"><strong>Curls</strong></a>
+                </div>
+                <div class="col-7 col-md-9 d-lg-none text-end">
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#curlsnavlinks" aria-expanded="false"  aria-controls="curlsnavlinks" 
+                        aria-label="Toggle navigation">
+                        <!-- <span class="navbar-toggler-icon curls-toggler-icon"></span> -->Hamburger
+                    </button>
+                </div>
+                <div class="collapse col-lg-10" id="curlsnavlinks">
+                    <ul class="nav nav-fill" id="">
+                        <li class="nav-item blue">
+                            <a class="nav-link curls-link" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item green">
+                            <a class="nav-link curls-link" href="science.html">Science</a>
+                        </li>
+                        <li class="nav-item yellow">
+                            <a class="nav-link curls-link" href="types.html">Hair Types</a>
+                        </li>
+                        <li class="nav-item orange">
+                            <a class="nav-link curls-link" href="actions.html">Actions</a>
+                        </li>
+                        <li class="nav-item pink">
+                            <a class="nav-link curls-link" href="more.html">More Resources</a>
+                        </li>
+                        <li>
+                            &nbsp;
+                        </li>
+                        <li class="nav-item blue contact">
+                            <a class="nav-link curls-link selected" href="contact.html">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </nav>
@@ -90,21 +101,24 @@
                             <label class="col-form-label" for="form-name">Your name</label>
                         </div>
                         <div class="col-12 col-md-4 col-lg-4">
-                            <input type="text" id="form-name" class="form-control form-border" placeholder="Curly" name="name" required />
+                            <input type="text" id="form-name" class="form-control form-border" placeholder="Curly"
+                                name="name" required />
                         </div>
                         <div class="d-none d-lg-block col-lg-12">&nbsp;</div>
                         <div class="col-12 col-md-2 offset-lg-3">
                             <label class="col-form-label" for="form-email">Your email</label>
                         </div>
                         <div class="col-12 col-md-4 col-lg-4">
-                            <input type="email" id="form-email" class="form-control form-border" placeholder="McCurlington" name="email" required />
+                            <input type="email" id="form-email" class="form-control form-border"
+                                placeholder="McCurlington" name="email" required />
                         </div>
                         <div class="d-none d-md-block col-md-12">&nbsp;</div>
                         <div class="col-12 col-md-2 offset-lg-3">
                             <label class="col-form-label" for="form-question">Your question</label>
                         </div>
                         <div class="col-12 col-md-10 offest-lg-3 col-lg-4 pb-5">
-                            <textarea id="form-question" class="form-control form-border" rows="6" cols="30" placeholder="How do I pineapple?" name="question" required></textarea>
+                            <textarea id="form-question" class="form-control form-border" rows="6" cols="30"
+                                placeholder="How do I pineapple?" name="question" required></textarea>
                         </div>
                         <div class="col-12 text-center">
                             <button type="submit" class="btn button-link blue">
@@ -161,8 +175,7 @@
 
     <!-- Bootstrap modal -->
 
-    <div class="modal fade" id="submitModal" tabindex="-1" aria-labelledby="submitModalLabel"
-        aria-hidden="true">
+    <div class="modal fade" id="submitModal" tabindex="-1" aria-labelledby="submitModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content text-center">
                 <div class="modal-header">
@@ -184,7 +197,8 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.1/umd/popper.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta2/js/bootstrap.bundle.min.js"></script>
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta2/js/bootstrap.bundle.min.js"></script>
 
     <!-- Script adapted from that written by eventyret_mentor/Simen Daehlin for Anouk Smet, more info in README -->
 
