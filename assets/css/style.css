@@ -363,6 +363,7 @@ nav.curls-nav .curls-toggler-icon {
     letter-spacing: 0.2rem;
     color: #fcff54;
     padding: 0;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 .type-number-sm {
