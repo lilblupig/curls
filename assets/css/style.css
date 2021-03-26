@@ -432,6 +432,10 @@ h2.actions-acc-header {
     background-color: #ffffff;
 }
 
+.actions-acc-button:not(.collapsed)::after {
+    background-image: url("../images/w3-chevron.svg");
+}
+
 .tools i {
     font-size: 3rem;
     color: #ffa947;
