@@ -368,6 +368,7 @@ Not much changed in terms of the 5 Planes of Design, or the use of wireframes, h
 * [DailyMotion Aspect Preservation](https://faq.dailymotion.com/hc/en-us/articles/360022841393-How-to-preserve-the-player-aspect-ratio-on-a-responsive-page) was used to help keep the iframe responsive across device changes.
 * [101 Computing Favicons](https://www.101computing.net/html-how-to-add-a-favicon/) was used to work out what a favicon is, and how it should be used.
 * JavaScript code snippet from [Anouk Smet](https://github.com/AnoukSmet)'s MS1, [Naturazy](https://github.com/AnoukSmet/Naturazy) written by [Simen Daehlin](https://github.com/Eventyret) to enable form validation and feedback to work appropriately.
+* [CodingDude Text Outline](https://dev.to/codingdudecom/everything-about-stroke-text-in-css-561i) to outline the large numbers on the Types page.
 
 ## Deployment
 
