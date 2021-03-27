@@ -18,6 +18,7 @@ A plan and log for testing the website, this is a manual testing plan due to the
       * [More Resources](#more-resources)
       * [Contact Us](#contact-us)
       * [404](#404)
+    * [Accessibility](#accessibility)
 1. [Bugs](#bugs)
 
 ## Validation Testing
