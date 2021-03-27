@@ -45,7 +45,7 @@ Note, testing information can be found in a separate document:
 Adopters of curly specific haircare do tend to be female and younger, however this is rapidly changing as male grooming becomes more mainstream, and personal freedoms become more acceptable for all generations.  The users of this website therefore could be anybody, regardless of age or gender and the design is approached accordingly.
 *  Bright unisex colours are offset by classic, largely white sections and black/white text and details.
 *  Soft scrolling fonts are contrasted with sharp, angled corners and straight lines.
-*  Imagery is fairly inclusive, although it was not possible to find suitable pictures of older people with spectacular natural curly hair.
+*  Imagery is fairly inclusive, although it was not possible to find suitable pictures of older people with natural curly hair.
 
 ### **User Stories**
 1. As a new user, I want to quickly determine if the website contains information I need, so that I know quickly whether to stay on the page.
@@ -157,7 +157,7 @@ The most notable change between the original wireframes and the final version is
 *  None.
 
 ###### Changes Specific to Contact Page
-*  Remove Fieldset and Legend from form, page appeared cluttered and bitty as the appearance was very different to the other sections thorugh out the webpage.
+*  Remove Fieldset and Legend from form, page appeared cluttered and bitty as the appearance was very different to the other sections through out the webpage.
 
 ### **Surface**
 
@@ -298,7 +298,7 @@ An enormous number of best practice points became apparent on first review with 
 * Do not use !important unless it is absolutely unavoidable.  It can be difficult to understand the hierarchy of many attributes utilising !important.
 * Comments in code should use only the standard comment indicators, and not larger dash numbers as indicated in some tutorials.  HTML comments should have only two dashes, and CSS comments should have none.
 * Use Bootstrap classes for manipulation of space (padding/margin etc) rather than creating custom classes.
-* Always start a "col" div with col-12, regardless.
+* Always start a "col" div which will use all 12 columns on xs viewport with col-12.
 * Text on mobile should be consistently left, center or justify, always.
 * Footer styling should match nav styling.
 * Contrast is important, Lighthouse should rate it as at least AA.
@@ -345,7 +345,7 @@ Not much changed in terms of the 5 Planes of Design, or the use of wireframes, h
 * CSS3 is used to provide most of the styling for the website.
   * About: [CSS3 Wiki](https://en.wikipedia.org/wiki/CSS)
   * Creator: [W3 Consortium](https://www.w3.org/)
-* JavaScript elements are used via Boostrap and directly for modal validation.
+* JavaScript elements are used via Bootstrap and directly for modal validation.
   * About: [JavaScript Home](https://www.javascript.com/)
 
 ### **Libraries and Frameworks**
@@ -446,7 +446,7 @@ Thank you in particular to:
 * Stephen Seagrave for early help on using custom style with Bootstrap.
 * Simen Daehlin for assistance with everything from Font Awesome and Bootstrap CDNs to contrast to JavaScript.
 
-Also generally to the Code Institute mentoring and tutoring teams, and the Slack community especially the channel leads and alumni who take the time to ensure any queries are at least recognised.
+Also generally to the Code Institute mentoring and tutoring teams (I apologise for the degree of difficulty presented by the desire to add a border to the nav!), and the Slack community especially the channel leads and alumni who take the time to ensure any queries are at least recognised.
 
 ### **README Credits**
 
