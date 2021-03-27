@@ -277,6 +277,13 @@ Contact Us Form
 
 ---
 
+### **Accessibility**
+
+The colourblind feature on Coolors was used to check that the colours appeared sufficiently different, and not jarring for these users.
+![Colourblindness assessment via Coolors](assets/readme-images/colourblindness.png)
+
+As well as the use of the Lighthouse assessments of accessibility, the website was browsed at intervals by two users who may experience difficulty.  A dyslexic user with ASD and a colourblind user both reported easy use of the site.
+
 ## Bugs
 
 Details of any persistent or difficult bugs, and any bugs which remain unresolved.
@@ -320,6 +327,26 @@ The code was copied into the contact page for this project (attributed in code a
 
 The form now validates properly, and the modal only displays when appropriate.
 
+#### Nav Restructure
+
+In the final mentoring session it was determined that the transparency of the nav background was not in keeping with the rest of the site, appearing grey, and that the partial border of the nav did not fully reflect the footer.  It was decided to make the nav solid white and to complete the nav border to fully bookend the site.
+![Nav prior to changes](assets/readme-images/mid-nav-change.png)
+
+Two approaches to this were discussed, somehow adding a border to the blank space between the nav proper and the contact link, or adding a border to the nav container and using a different variety of user feedback on hover.
+
+The first approach, to complete the existing border, was attempted by adding filler elements between More Resources and Contact Us, but these were always restricted in size or distorted the placement of the other elements.  Varios Flex and spacing/arrangement/justify classes were tried form Bootstrap 5 documentation but nothing in the nav responded to these classes.
+
+The second approach was therefore decided upon, to replace the partial border providing responsive behaviour with a full border and decide on another hover effect.  However, on addition of the bottom border to any page wide element (nav/div/container etc) a very, very thin line would appear just above the new border, in the same colours as the nav background.  All elements were inspected in Lighthouse for margin which may be overflowing past the container but not visible, but nothing was detected.  Attempts to incorporate this line into the design looked obviously like a bug cover up.
+![Thin line showing on nav border addition](assets/readme-images/nav-redesign.png)
+
+Tutor support was sought at this time, and a potential workaround identified in that it a border-top applied to a following element displayed correctly.  It was hoped that the addition of a div to the end of the nav section with a border top applied would work with the sticky nav, but it was not possible to make the new div full width.
+
+The respository was then branched and the nav completely stripped of components one by one until the responsive Bootstrap flex classes began to work, and then cautiously added back until these stopped responding.  It became apparent that the Bootstrap [Navbar](https://getbootstrap.com/docs/5.0/components/navbar/) component structure was not responsive to the arrangement classes in the same way the [Navs & tabs](https://getbootstrap.com/docs/5.0/components/navs-tabs/) navs were.
+
+The nav was rebuilt using the navs and tabs classes to ensure accessibility and preservation of semantic markup.  The [collapse](https://getbootstrap.com/docs/5.0/components/collapse/) component was used to collapse the nav to hamburger on all viewport sizes to large, and a media query to then show the nav in full.  Flex classes were used to stack the links in mobile/tablet view from the hamburger and then in row view on PC and laptop.  The flex Justify class was used to spread the components across the navbar and ensure the border was 100% width of the screen, but the sections appeared oddly stretched and unappealing.  A div was added to the navbar between li elements and given the justify class to fill the blank space with an empty element which could have a border applied.  This div was given aria-hidden=true to prevent it interfering with accessibility.
+
+Passing the new code through the code validator triggered a warning with regard to the improper use of the div element in the middle of an unordered list.  As such, the div was changed to a li element to pass validation, but does have a Bootstrap grid class applied to ensure this does not display on the mobile/tablet stacked nav, which does contravene best practices, but was deemed to be the lesser issue. 
+
 ### **Remaining Bugs**
 
 #### Hamburger Collapse Transition
@@ -330,6 +357,7 @@ The only known remaining bug in the website is that the hamburger menu transitio
 
 The image above shows the brief moment the Contact Us link is left behind by the menu transition.
 
-Testing completed 21/03/2021 - AKH
+Testing first completed 21/03/2021 - AKH
+Testing repeated 27/03/2021 - AKH
 
 [Return to Top](#curls)
